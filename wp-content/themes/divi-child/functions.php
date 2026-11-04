@@ -50,6 +50,9 @@ require_once __DIR__ . '/inc/byline.php';
 // Encadré « L'avis du conseiller » (utilise les profils de inc/byline.php).
 require_once __DIR__ . '/inc/avis-conseiller.php';
 
+// Encadré de sortie vers la boutique.
+require_once __DIR__ . '/inc/encadre-boutique.php';
+
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
 

@@ -215,3 +215,67 @@ Text Domain:  divi-child
 		font-size: 13px;
 	}
 }
+
+/* --- Encadré boutique (inc/encadre-boutique.php) --- */
+#left-area .mcav-cta {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin: 8px 0 32px;
+	padding: 22px 24px;
+	background: #121417;
+	border-radius: 8px;
+}
+#left-area .mcav-cta__text {
+	flex: 1;
+	min-width: 0;
+}
+.single-post #left-area .entry-content .mcav-cta p {
+	margin: 0;
+	padding: 0;
+	color: #e6e2e0;
+	font-size: 15px;
+	line-height: 1.6;
+}
+.single-post #left-area .entry-content .mcav-cta p.mcav-cta__title {
+	margin-bottom: 4px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+/* Lien « Lire aussi » : or clair, lisible sur fond sombre (contraste 9:1). */
+.single-post #left-area .entry-content .mcav-cta p a {
+	color: #e3cfa5;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.single-post #left-area .entry-content .mcav-cta p a:hover {
+	color: #fff;
+}
+/* Bouton : or de la marque assombri pour que le texte blanc reste lisible (4,7:1). */
+#left-area .mcav-cta .mcav-cta__button {
+	flex: 0 0 auto;
+	padding: 12px 20px;
+	background: #877047;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.3;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .15s;
+}
+#left-area .mcav-cta .mcav-cta__button:hover,
+#left-area .mcav-cta .mcav-cta__button:focus {
+	background: #76623e;
+	color: #fff;
+}
+@media (max-width: 700px) {
+	#left-area .mcav-cta {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 16px;
+		padding: 20px;
+	}
+}
