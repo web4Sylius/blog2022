@@ -45,7 +45,7 @@ function divi_child_avis_meta_box( $post ) {
 	$texte      = get_post_meta( $post->ID, DIVI_CHILD_META_AVIS_TEXTE, true );
 	$conseiller = (int) get_post_meta( $post->ID, DIVI_CHILD_META_AVIS_CONSEILLER, true );
 	$position   = (int) get_post_meta( $post->ID, DIVI_CHILD_META_AVIS_POSITION, true );
-	$headings   = divi_child_avis_headings( $post->post_content );
+	$headings   = divi_child_avis_headings( divi_child_faq_content_for_headings( $post ) );
 	$default    = divi_child_avis_default_position( count( $headings ) );
 	?>
 	<p>

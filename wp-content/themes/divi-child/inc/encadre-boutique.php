@@ -63,7 +63,7 @@ add_action( 'add_meta_boxes', 'divi_child_cta_add_meta_box' );
 function divi_child_cta_meta_box( $post ) {
 	wp_nonce_field( 'mcav_cta', 'mcav_cta_nonce' );
 	$cta      = divi_child_cta_get( $post->ID );
-	$headings = divi_child_cta_headings( $post->post_content );
+	$headings = divi_child_cta_headings( divi_child_faq_content_for_headings( $post ) );
 	$default  = divi_child_cta_default_position( count( $headings ) );
 	$articles = get_posts(
 		array(
