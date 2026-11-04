@@ -45,15 +45,10 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
                                         echo '</div>';
                                     }
 
-                                    $author_id = get_the_author_meta('ID');
-                                    $author_link = get_author_posts_url($author_id);
-                                    $author_name = get_the_author_meta('display_name');
-
-									echo '<div class="author-breadcrumb">Par ' . $author_name . '</div>';
-	                                    
-                                    // Ajout de la date de publication
-                                    $post_date = get_the_date('F j, Y');
-                                    echo '<div class="post-date">' . $post_date . '</div>';
+                                    // Auteur, relecteur, dates et temps de lecture (inc/byline.php).
+                                    if ( function_exists( 'divi_child_byline' ) ) {
+                                    	divi_child_byline();
+                                    }
                                     ?>
                                     <?php
                                     if ( ! post_password_required() ) :
