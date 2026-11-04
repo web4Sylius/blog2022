@@ -15,6 +15,9 @@
 
 const DIVI_CHILD_META_CTA = '_mcav_cta';
 
+/** Début du lien du bouton, pré-rempli dans le champ et à compléter. */
+const DIVI_CHILD_CTA_URL_BASE = 'https://www.ma-cave-a-vin.fr/';
+
 /** Valeurs de l'encadré, complétées par les valeurs par défaut. */
 function divi_child_cta_get( $post_id ) {
 	$cta = get_post_meta( $post_id, DIVI_CHILD_META_CTA, true );
@@ -95,7 +98,7 @@ function divi_child_cta_meta_box( $post ) {
 	</p>
 	<?php
 	$field( 'bouton_libelle', 'Texte du bouton', $cta['bouton_libelle'], 'Voir les caves de vieillissement' );
-	$field( 'bouton_url', 'Lien du bouton (page de la boutique)', $cta['bouton_url'], 'https://www.ma-cave-a-vin.fr/…', 'url' );
+	$field( 'bouton_url', 'Lien du bouton (page de la boutique)', '' !== $cta['bouton_url'] ? $cta['bouton_url'] : DIVI_CHILD_CTA_URL_BASE, DIVI_CHILD_CTA_URL_BASE . '…', 'url' );
 	?>
 	<p>
 		<label for="mcav_cta_lire_post"><strong>« Lire aussi » (facultatif)</strong></label><br>
@@ -144,6 +147,10 @@ function divi_child_cta_save_post( $post_id ) {
 		'lire_libelle'   => sanitize_text_field( $in['lire_libelle'] ?? '' ),
 		'position'       => max( -1, (int) ( $in['position'] ?? 0 ) ),
 	);
+	// Lien laissé tel quel (non complété) : considéré comme vide.
+	if ( untrailingslashit( $cta['bouton_url'] ) === untrailingslashit( DIVI_CHILD_CTA_URL_BASE ) ) {
+		$cta['bouton_url'] = '';
+	}
 	if ( '' === $cta['titre'] && '' === $cta['bouton_url'] && '' === $cta['texte'] ) {
 		delete_post_meta( $post_id, DIVI_CHILD_META_CTA );
 	} else {
