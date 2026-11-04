@@ -107,6 +107,12 @@ function divi_child_byline_short_name( $user ) {
 	return $user->first_name ? $user->first_name : $user->display_name;
 }
 
+/** Prénom + nom si renseignés, sinon nom d'affichage. */
+function divi_child_byline_full_name( $user ) {
+	$name = trim( $user->first_name . ' ' . $user->last_name );
+	return $name ? $name : $user->display_name;
+}
+
 /** « rédactrice », « conseiller depuis 15 ans », ou ''. */
 function divi_child_byline_role( $user ) {
 	$role  = trim( (string) get_user_meta( $user->ID, DIVI_CHILD_META_FONCTION, true ) );
@@ -140,8 +146,8 @@ function divi_child_byline_reading_time( $post ) {
 	return max( 1, (int) ceil( count( $words ) / max( 1, $wpm ) ) );
 }
 
-function divi_child_byline_person( $label, $user, $link = false ) {
-	$name = esc_html( divi_child_byline_short_name( $user ) );
+function divi_child_byline_person( $label, $user, $link = false, $full_name = false ) {
+	$name = esc_html( $full_name ? divi_child_byline_full_name( $user ) : divi_child_byline_short_name( $user ) );
 	if ( $link ) {
 		$name = sprintf( '<a href="%s" rel="author">%s</a>', esc_url( get_author_posts_url( $user->ID ) ), $name );
 	}
@@ -165,7 +171,8 @@ function divi_child_byline( $post = null ) {
 
 	$reviewer = get_userdata( (int) get_post_meta( $post->ID, DIVI_CHILD_META_RELECTEUR, true ) );
 	if ( $reviewer && $reviewer->ID !== $author->ID ) {
-		$people[] = divi_child_byline_person( 'Relu par', $reviewer, count_user_posts( $reviewer->ID, 'post', true ) > 0 );
+		// Nom complet du relecteur : il n'a souvent pas de page auteur pour se présenter.
+		$people[] = divi_child_byline_person( 'Relu par', $reviewer, count_user_posts( $reviewer->ID, 'post', true ) > 0, true );
 	}
 
 	$dates = array(
