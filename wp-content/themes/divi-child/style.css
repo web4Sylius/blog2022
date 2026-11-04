@@ -79,10 +79,12 @@ Text Domain:  divi-child
 .mcav-toc details:not([open]) summary::after {
 	transform: rotate(-90deg);
 }
+/* #left-area : passe devant la règle de Divi « #left-area ol » (padding 0, puces à l'intérieur). */
+#left-area .mcav-toc ol,
 .mcav-toc ol {
 	margin: 0;
 	padding: 0 16px 14px 36px;
-	list-style: decimal;
+	list-style: decimal outside;
 }
 .mcav-toc li {
 	padding: 3px 0;
@@ -104,6 +106,7 @@ Text Domain:  divi-child
 	.mcav-toc summary {
 		padding: 16px 24px;
 	}
+	#left-area .mcav-toc ol,
 	.mcav-toc ol {
 		padding: 4px 24px 20px 48px;
 	}

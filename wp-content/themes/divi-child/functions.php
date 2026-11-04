@@ -49,3 +49,17 @@ require_once __DIR__ . '/inc/byline.php';
 
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
+
+/**
+ * Divi charge style.css de l'enfant avec sa propre version (ex. ?ver=4.14.4),
+ * qui ne change jamais : les navigateurs gardent l'ancien CSS en cache.
+ * On met à la place la date de modification du fichier.
+ */
+function divi_child_style_version() {
+	$styles = wp_styles();
+	$file   = get_stylesheet_directory() . '/style.css';
+	if ( isset( $styles->registered['divi-style'] ) && file_exists( $file ) ) {
+		$styles->registered['divi-style']->ver = (string) filemtime( $file );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'divi_child_style_version', 20 );
