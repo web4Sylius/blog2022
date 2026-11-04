@@ -368,3 +368,7 @@ Text Domain:  divi-child
 		font-size: 15px;
 	}
 }
+/* « Nombre de vues » (Post Views Counter) : masqué sur les articles (voir inc/bloc-auteur.php). */
+.single-post .post-views {
+	display: none;
+}

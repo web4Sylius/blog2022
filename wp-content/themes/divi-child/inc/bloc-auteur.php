@@ -11,15 +11,10 @@
  * - Nom, fonction, initiales et relecteur : les mêmes que la signature
  *   sous le titre (inc/byline.php).
  * - Biographie : champ « Renseignements biographiques » du profil.
- * - « Qui sommes-nous » : page dont l'adresse est /qui-sommes-nous/
- *   (filtre divi_child_auteur_page_equipe pour en choisir une autre).
+ * - « Qui sommes-nous » : page de la boutique (le blog n'en a pas).
  */
 
-/** Page « Qui sommes-nous », ou null si elle n'existe pas. */
-function divi_child_auteur_page_equipe() {
-	$page = get_page_by_path( (string) apply_filters( 'divi_child_auteur_page_equipe', 'qui-sommes-nous' ) );
-	return $page && 'publish' === $page->post_status ? $page : null;
-}
+const DIVI_CHILD_AUTEUR_URL_EQUIPE = 'https://www.ma-cave-a-vin.fr/int,4,qui-sommes-nous.htm';
 
 function divi_child_auteur_box( $post = null ) {
 	$post   = get_post( $post );
@@ -47,11 +42,8 @@ function divi_child_auteur_box( $post = null ) {
 
 	$liens = array(
 		sprintf( '<a href="%s" rel="author">Tous les articles de %s</a>', esc_url( get_author_posts_url( $author->ID ) ), esc_html( $prenom ) ),
+		sprintf( '<a href="%s">Qui sommes-nous</a>', esc_url( DIVI_CHILD_AUTEUR_URL_EQUIPE ) ),
 	);
-	$equipe = divi_child_auteur_page_equipe();
-	if ( $equipe ) {
-		$liens[] = sprintf( '<a href="%s">%s</a>', esc_url( get_permalink( $equipe ) ), esc_html( get_the_title( $equipe ) ) );
-	}
 
 	return '<aside class="mcav-auteur" aria-label="À propos de l\'auteur">'
 		. '<span class="mcav-auteur__avatar" aria-hidden="true">' . esc_html( divi_child_byline_initials( $author ) ) . '</span>'
@@ -62,3 +54,12 @@ function divi_child_auteur_box( $post = null ) {
 		. '</div>'
 		. '</aside>';
 }
+
+/**
+ * Masque « Nombre de vues » (Post Views Counter) en bas des articles :
+ * le compteur continue de compter, il n'est simplement plus affiché.
+ */
+function divi_child_auteur_masque_vues( $display ) {
+	return is_singular( 'post' ) ? false : $display;
+}
+add_filter( 'pvc_display_views_count', 'divi_child_auteur_masque_vues' );
