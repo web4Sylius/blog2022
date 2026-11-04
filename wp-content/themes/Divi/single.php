@@ -39,7 +39,8 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
                                     <h1 class="entry-title"><?php the_title(); ?></h1>
                                     <?php
                                     if (function_exists('bcn_display')) {
-                                        echo '<div class="breadcrumb">';
+                                        // vocab + typeof : déclare la liste BreadcrumbList (RDFa) autour des ListItem de Breadcrumb NavXT
+                                        echo '<div class="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">';
                                         bcn_display();
                                         echo '</div>';
                                     }
