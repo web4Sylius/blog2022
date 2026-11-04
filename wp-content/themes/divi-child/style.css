@@ -99,3 +99,12 @@ Text Domain:  divi-child
 .entry-content h2[id] {
 	scroll-margin-top: 110px;
 }
+/* Sommaire : plus d'air sur ordinateur. */
+@media (min-width: 981px) {
+	.mcav-toc summary {
+		padding: 16px 24px;
+	}
+	.mcav-toc ol {
+		padding: 4px 24px 20px 48px;
+	}
+}
