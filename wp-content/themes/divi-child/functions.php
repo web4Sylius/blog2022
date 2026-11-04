@@ -47,6 +47,9 @@ add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
 // Bloc auteur / relecteur / dates sous le titre des articles.
 require_once __DIR__ . '/inc/byline.php';
 
+// Encadré « L'avis du conseiller » (utilise les profils de inc/byline.php).
+require_once __DIR__ . '/inc/avis-conseiller.php';
+
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
 
