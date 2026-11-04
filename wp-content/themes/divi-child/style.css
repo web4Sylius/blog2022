@@ -372,3 +372,20 @@ Text Domain:  divi-child
 .single-post .post-views {
 	display: none;
 }
+
+/* --- Sources (inc/sources.php) --- */
+#left-area .mcav-sources {
+	margin: 8px 0 16px;
+}
+/* #left-area : passe devant la règle de Divi « #left-area ol » (padding 0, numéros à l'intérieur). */
+#left-area .mcav-sources ol {
+	margin: 0;
+	padding: 0 0 0 1.6em;
+	list-style: decimal outside;
+}
+.single-post #left-area .entry-content .mcav-sources li {
+	padding: 2px 0;
+	color: #555;
+	font-size: 15px;
+	line-height: 1.6;
+}
