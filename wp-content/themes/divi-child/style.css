@@ -111,3 +111,42 @@ Text Domain:  divi-child
 		padding: 4px 24px 20px 48px;
 	}
 }
+
+/* --- Texte et liens des articles --- */
+/* #left-area : passe devant les styles des modules Divi. */
+.single-post #left-area .entry-content p,
+.single-post #left-area .entry-content li {
+	font-size: 16px;
+	line-height: 1.75;
+}
+/* Liens visibles : or de la marque (#a98c59) assombri pour un contraste
+   de 4,7:1 sur blanc (WCAG AA), et soulignés. */
+.single-post #left-area .entry-content p a,
+.single-post #left-area .entry-content li a,
+.single-post #left-area .entry-content td a,
+.single-post #left-area .entry-content blockquote a {
+	color: #877047;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+	transition: color .15s;
+}
+.single-post #left-area .entry-content p a:hover,
+.single-post #left-area .entry-content li a:hover,
+.single-post #left-area .entry-content td a:hover,
+.single-post #left-area .entry-content blockquote a:hover {
+	color: #655435;
+	text-decoration-thickness: 2px;
+}
+/* Le sommaire garde son style (liens sombres, non soulignés). */
+.single-post #left-area .entry-content .mcav-toc li {
+	font-size: 15px;
+}
+.single-post #left-area .entry-content .mcav-toc li a {
+	color: #333;
+	text-decoration: none;
+}
+.single-post #left-area .entry-content .mcav-toc li a:hover {
+	color: #877047;
+	text-decoration: underline;
+}
