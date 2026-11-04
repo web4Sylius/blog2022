@@ -303,3 +303,68 @@ Text Domain:  divi-child
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
+
+/* --- Bloc auteur en fin d'article (inc/bloc-auteur.php) --- */
+#left-area .mcav-auteur {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin: 32px 0 8px;
+	padding: 24px 0 0;
+	border-top: 2px solid #a98c59;
+}
+#left-area .mcav-auteur__avatar {
+	flex: 0 0 64px;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background: #e8e0d6;
+	color: #7a6a5a;
+	font-size: 18px;
+	font-weight: 600;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+#left-area .mcav-auteur__texte {
+	flex: 1;
+	min-width: 0;
+}
+#left-area .mcav-auteur p {
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 15px;
+	line-height: 1.65;
+}
+#left-area .mcav-auteur p.mcav-auteur__nom {
+	margin-bottom: 6px;
+	color: #333;
+	font-size: 16px;
+	font-weight: 700;
+}
+#left-area .mcav-auteur p.mcav-auteur__liens {
+	margin-top: 10px;
+	color: #999;
+}
+#left-area .mcav-auteur__liens a {
+	color: #877047;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+}
+#left-area .mcav-auteur__liens a:hover {
+	color: #655435;
+	text-decoration-thickness: 2px;
+}
+@media (max-width: 600px) {
+	#left-area .mcav-auteur {
+		gap: 14px;
+	}
+	#left-area .mcav-auteur__avatar {
+		flex-basis: 48px;
+		width: 48px;
+		height: 48px;
+		font-size: 15px;
+	}
+}

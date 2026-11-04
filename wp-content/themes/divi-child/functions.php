@@ -47,6 +47,9 @@ add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
 // Bloc auteur / relecteur / dates sous le titre des articles.
 require_once __DIR__ . '/inc/byline.php';
 
+// Bloc auteur en fin d'article (utilise inc/byline.php).
+require_once __DIR__ . '/inc/bloc-auteur.php';
+
 // Encadré « L'avis du conseiller » (utilise les profils de inc/byline.php).
 require_once __DIR__ . '/inc/avis-conseiller.php';
 
