@@ -47,6 +47,9 @@ add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
 // Bloc auteur / relecteur / dates sous le titre des articles.
 require_once __DIR__ . '/inc/byline.php';
 
+// Bloc auteur en fin d'article (utilise inc/byline.php).
+require_once __DIR__ . '/inc/bloc-auteur.php';
+
 // Encadré « L'avis du conseiller » (utilise les profils de inc/byline.php).
 require_once __DIR__ . '/inc/avis-conseiller.php';
 
@@ -55,6 +58,9 @@ require_once __DIR__ . '/inc/encadre-boutique.php';
 
 // FAQ : type de contenu « FAQ », choisi dans les articles (affichage + FAQPage).
 require_once __DIR__ . '/inc/faq.php';
+
+// Sources : type de contenu « Sources », choisi dans les articles (liste en fin d'article).
+require_once __DIR__ . '/inc/sources.php';
 
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';

@@ -152,7 +152,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
                                 }
                                 ?>
                             </div>
-                            <?php if ( function_exists( 'wpsabox_author_box' ) ) echo wpsabox_author_box(); ?>
+                            <?php echo divi_child_auteur_box(); // phpcs:ignore WordPress.Security.EscapeOutput -- échappé dans la fonction. ?>
                         </article>
 
                     <?php endwhile; ?>

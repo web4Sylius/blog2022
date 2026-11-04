@@ -182,6 +182,11 @@ function divi_child_faq_insert( $content, $post_id ) {
 	if ( '' === $html ) {
 		return $content;
 	}
+	// Sources ajoutées par le thème (inc/sources.php) : juste avant leur bloc.
+	$sources = strpos( $content, '<section class="mcav-sources">' );
+	if ( false !== $sources ) {
+		return substr_replace( $content, $html, $sources, 0 );
+	}
 	if ( preg_match_all( '#<h2(?:\s[^>]*)?>(.*?)</h2>#is', $content, $m, PREG_OFFSET_CAPTURE | PREG_SET_ORDER ) ) {
 		foreach ( $m as $h2 ) {
 			$label = trim( wp_strip_all_tags( html_entity_decode( $h2[1][0], ENT_QUOTES, 'UTF-8' ) ) );
@@ -194,11 +199,12 @@ function divi_child_faq_insert( $content, $post_id ) {
 }
 
 /**
- * Contenu d'un article avec sa FAQ, pour la liste des H2 dans les encadrés
- * « Avis du conseiller » et « Encadré boutique » (mêmes positions qu'à l'affichage).
+ * Contenu d'un article avec ses sources et sa FAQ, pour la liste des H2 dans les
+ * encadrés « Avis du conseiller » et « Encadré boutique » (mêmes positions qu'à l'affichage).
  */
 function divi_child_faq_content_for_headings( $post ) {
-	return divi_child_faq_insert( $post->post_content, $post->ID );
+	$content = function_exists( 'divi_child_sources_insert' ) ? divi_child_sources_insert( $post->post_content, $post->ID ) : $post->post_content;
+	return divi_child_faq_insert( $content, $post->ID );
 }
 
 function divi_child_faq_filter( $content ) {
