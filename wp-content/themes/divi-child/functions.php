@@ -44,8 +44,8 @@ function divi_child_load_custom_functions() {
 }
 add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
 
-// Texte du bas de page (remplace les crédits de Divi).
-require_once __DIR__ . '/inc/footer.php';
+// Shortcodes : [pied_de_page] (texte du pied de page) et [annee].
+require_once __DIR__ . '/inc/shortcodes.php';
 
 // Bloc auteur / relecteur / dates sous le titre des articles.
 require_once __DIR__ . '/inc/byline.php';
