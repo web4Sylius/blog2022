@@ -1,0 +1,428 @@
+# Copyright (C) 2025 learnhowwp.com
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Carousel Divi 1.0.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/image-carousel-divi\n"
+"POT-Creation-Date: 2025-07-20 18:44:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:38
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:57
+msgid "1"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:39
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:58
+msgid "2"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:40
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:59
+msgid "3"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:41
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:60
+msgid "4"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:42
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:61
+msgid "5"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:43
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:62
+msgid "6"
+msgstr ""
+
+#: includes/class-lwp-image-carousel-rating.php:78
+#. translators: 1: Plugin name, 2: Review URL, 3: Don't disturb URL, 4: Don't
+#. show again URL.
+msgid ""
+"<div class=\"wrap notice notice-info\">\n"
+"                    <div style=\"margin:10px 0px;\">\n"
+"                        Hello! Seems like you are using "
+"<strong>%1$s</strong> plugin to build your Divi website - Thanks a lot! "
+"Could you please do us a BIG favor and give it a 5-star rating on "
+"WordPress? This boosts our motivation and helps other users make a "
+"comfortable decision while choosing the plugin.\n"
+"                    </div>\n"
+"                    <div class=\"button-group\" style=\"margin:10px 0px;\">\n"
+"                        <a href=\"%2$s\" class=\"button button-primary\" "
+"target=\"_blank\" style=\"margin-right:10px;\">Ok, you deserve it</a>\n"
+"                        <span class=\"dashicons dashicons-smiley\"></span>\n"
+"                        <a href=\"%3$s\" class=\"button button-link\" "
+"style=\"margin-right:10px; margin-left:3px;\">I already did</a>\n"
+"                        <a href=\"%4$s\" class=\"button button-link\">Don't "
+"show this again.</a>\n"
+"                    </div>\n"
+"                </div>"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:15
+msgid "Image Carousel"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:23
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:399
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:530
+msgid "Images"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:24
+msgid "Choose the images that you would like to appear in the image carousel."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:33
+msgid "Slides Count"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:34
+msgid "Choose the number of images to show in the carousel"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:52
+msgid "Slides Scroll"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:53
+msgid ""
+"Choose the number of images to scroll on the press of a button or on "
+"automatic animation"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:69
+msgid "Show Dots"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:72
+msgid "Select if you want to show dots under the carousel"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:75
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:89
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:102
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:118
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:171
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:265
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:280
+msgid "No"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:76
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:88
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:103
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:117
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:172
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:266
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:281
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:82
+msgid "Show Arrows"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:85
+msgid "Select if you want to show arrows on the carousel"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:95
+msgid "Autoplay"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:98
+msgid "Select if you want the carousel to keep moving to next slides automatically"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:110
+msgid "Pause On Hover"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:114
+msgid "Select if you want to stop the autoplay animation on hover"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:126
+msgid "Automatic Animation Speed (in ms)"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:127
+msgid "Set the animation speed for the autoplay animation."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:138
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:249
+msgid ""
+"Speed up or slow down your animation by adjusting the animation duration. "
+"Units are in milliseconds and the default animation duration is one second."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:147
+msgid "Slide Animation Speed (in ms)"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:148
+msgid "Set the animation speed for transition between slides"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:164
+msgid "Infinite Animation"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:167
+msgid ""
+"Select if you want enable infinite animation. The carousel will start from "
+"the first image once it reaches the end."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:179
+msgid "CSS Animation Easing"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:180
+msgid "Choose the easing function for the slide animation."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:184
+msgid "Ease"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:185
+msgid "Linear"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:186
+msgid "Ease In"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:187
+msgid "Ease Out"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:188
+msgid "Ease In Out"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:195
+msgid "Arrow Color"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:198
+msgid "Select the colors of the arrows in the carousel."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:205
+msgid "Arrow Background"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:207
+msgid "Select the background color for the arrows in the carousel."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:214
+msgid "Dots Color"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:217
+msgid "Select color for dots in the carousel"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:223
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:224
+msgid "Choose the layout for the slider."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:228
+msgid "Default"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:229
+msgid "Center Mode"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:230
+msgid "Synced Slider"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:237
+msgid "Center Padding"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:238
+msgid "Set the center padding for the center mode slider."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:258
+msgid "Vertical Layout"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:261
+msgid "Select if you want enable sliding for this slider."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:273
+msgid "Adaptive Height"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:276
+msgid "Select if you want enable adaptive height."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:286
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:303
+msgid "Arrow Location"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:287
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:304
+msgid "Choose the location of the arrows."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:291
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:308
+msgid "Side"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:292
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:362
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:380
+msgid "Top"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:293
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:309
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:364
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:382
+msgid "Bottom"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:319
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:337
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:357
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:375
+msgid "Arrow Alignment"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:320
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:338
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:358
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:376
+msgid "Choose the alignment of the arrows."
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:324
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:342
+msgid "Left"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:325
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:343
+msgid "Right"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:326
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:344
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:363
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:381
+msgid "Center"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:400
+msgid "Elements"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:402
+msgid "Carousel Elements"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:406
+msgid "Carousel Animation"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:410
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:437
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:479
+msgid "Image"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:414
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:448
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:488
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:501
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:538
+msgid "Main Image"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:418
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:463
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:534
+msgid "Center Image"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:522
+msgid "Arrow"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:526
+msgid "Dots"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:542
+msgid "Slider Container"
+msgstr ""
+
+#: includes/modules/DiviImageCarousel/DiviImageCarousel.php:546
+msgid "Slide Container"
+msgstr ""
+
+#: lwp-image-carousel.php:146
+msgid "Rate Plugin"
+msgstr ""
+
+#: lwp-image-carousel.php:147
+msgid "Getting Started Guide"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Image Carousel Divi"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.learnhowwp.com/divi-image-carousel-plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin adds an image carousel module to the Divi theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "learnhowwp.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.learnhowwp.com"
+msgstr ""

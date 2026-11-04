@@ -1,0 +1,13 @@
+{
+	"name": "simple-author-box/sab",
+	"title": "Simple Author Box",
+	"category": "widgets",
+	"icon": "admin-users",
+	"description": "Easily add a customizable author box with social icons to any post.",
+	"keywords": [ "author box", "author block", "post author box" ],
+	"textdomain": "simple-author-box",
+	"editorScript": "file:./assets/js/sab_gutenberg_editor_script.js",
+	"script": "file:./assets/js/sab_gutenberg_editor_script.js",
+	"editorStyle": "file:./assets/css/sab_gutenberg_editor_style.css",
+	"style": "file:./assets/css/sab_gutenberg_editor_style.css"
+}

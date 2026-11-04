@@ -1,0 +1,56 @@
+# --- Configuration et secrets ---
+/wp-config.php
+/.htaccess
+.user.ini
+php.ini
+.env
+.env.*
+!.env.example
+
+# --- Médias envoyés par les utilisateurs ---
+wp-content/uploads/
+
+# --- Caches (Divi, WP Rocket, etc.) ---
+wp-content/cache/
+wp-content/et-cache/
+wp-content/wp-rocket-config/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/wp-cache-config.php
+
+# --- Fichiers générés par WordPress ---
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/backups-dup-pro/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+wp-content/logs/
+wp-content/db.php
+wp-content/debug.log
+wp-content/blogs.dir/
+sitemap.xml
+sitemap.xml.gz
+
+# --- Logs, dumps, archives ---
+*.log
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+*.wpress
+
+# --- Dépendances et build ---
+/node_modules/
+/vendor/
+
+# --- Système / éditeurs ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

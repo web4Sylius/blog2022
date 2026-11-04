@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'codeinwp/auto-post-thumbnail',
+        'pretty_version' => 'v5.0.5',
+        'version' => '5.0.5.0',
+        'reference' => '75fd434f1d00e5300c5d49d581a4c0ddbb364e79',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'codeinwp/auto-post-thumbnail' => array(
+            'pretty_version' => 'v5.0.5',
+            'version' => '5.0.5.0',
+            'reference' => '75fd434f1d00e5300c5d49d581a4c0ddbb364e79',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'codeinwp/themeisle-sdk' => array(
+            'pretty_version' => '3.3.52',
+            'version' => '3.3.52.0',
+            'reference' => 'd1ae68cbd4f84934b4d982e9eeff317b9f4c814a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'woocommerce/action-scheduler' => array(
+            'pretty_version' => '3.9.3',
+            'version' => '3.9.3.0',
+            'reference' => 'c58cdbab17651303d406cd3b22cf9d75c71c986c',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../woocommerce/action-scheduler',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

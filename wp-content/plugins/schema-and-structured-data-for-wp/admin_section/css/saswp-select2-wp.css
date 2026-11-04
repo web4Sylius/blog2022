@@ -1,0 +1,70 @@
+/* ===== Select2 → WordPress standard select UI overrides ===== */
+/* Values sourced from wp-admin/css/forms.min.css */
+
+/* Prevent horizontal scrollbar when Select2 dropdown opens (dropdown appended to body) */
+body.wp-admin {
+    overflow-x: hidden !important;
+}
+
+/* Prevent hidden select2 elements from causing layout/scroll shifts */
+html body.wp-admin #wpwrap .select2-hidden-accessible {
+    position: fixed !important;
+}
+
+
+/* Match container width to its parent, same as a block-level select */
+html body.wp-admin #wpwrap .select2-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ---- Single-select trigger: match WP native <select> exactly ---- */
+html body.wp-admin #wpwrap .select2-container--default .select2-selection--single {
+    box-shadow: 0 0 0 transparent !important;
+    border-radius: 2px !important;
+    border: 1px solid #949494 !important;
+    background-color: #fff !important;
+    color: #1e1e1e !important;
+    min-height: 40px !important;
+    height: 40px !important;
+    box-sizing: border-box !important;
+    padding: 0 24px 0 12px !important;
+    line-height: 38px !important;
+}
+
+/* Focus / open: match WP focus ring (uses WP admin theme color CSS vars) */
+html body.wp-admin #wpwrap .select2-container--default.select2-container--focus .select2-selection--single,
+html body.wp-admin #wpwrap .select2-container--default.select2-container--open .select2-selection--single {
+    border-color: var(--wp-admin-theme-color, #3858e9) !important;
+    box-shadow: 0 0 0 var(--wp-admin-border-width-focus, 1.5px) var(--wp-admin-theme-color, #3858e9) !important;
+    outline: 2px solid transparent !important;
+}
+
+/* Selected text: inherit WP color, align vertically */
+html body.wp-admin #wpwrap .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #1e1e1e !important;
+    line-height: 38px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Keep Select2 native arrow but size/position it to match WP's 24px right padding zone */
+html body.wp-admin #wpwrap .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px !important;
+    top: 0 !important;
+    right: 2px !important;
+    width: 20px !important;
+}
+
+/* ---- Optgroup headers ---- */
+html body.wp-admin .select2-container--default .select2-results__group {
+    font-weight: 600 !important;
+    color: #1e1e1e !important;
+    padding: 8px 12px 4px 12px !important;
+    font-size: 14px !important;
+}
+
+/* Indent nested options under optgroups */
+html body.wp-admin .select2-container--default .select2-results__options--nested .select2-results__option[role="option"] {
+    padding-left: 24px !important;
+}

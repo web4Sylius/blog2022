@@ -1,0 +1,122 @@
+#adminmenu #toplevel_page_simple-author-box-options .wp-menu-image img {
+	height: 18px;
+    padding-top: 8px;
+}
+#adminmenu #toplevel_page_simple-author-box-options.current .wp-menu-image img {
+	opacity: 1;
+}
+img.sab-custom-avatar {
+    height: auto;
+    max-width:75px;
+}
+
+.sabox-modal {
+    display: none;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 1px solid black;
+    z-index: 99999;
+    position: fixed;
+    left:0px;
+  }
+  
+  .sabox-modal-close-btn {
+    background: #007cba;
+    color: white;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    border: none;
+  }
+  
+  .sabox-modal-close-btn .dashicons{
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    line-height: 32px;
+  }
+
+  .sabox-modal-header-right .toggle-wrapper{
+      float:left;
+  }
+
+  .sabox-modal-content {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+  }
+  
+  .sabox-modal-footer {
+    position: absolute;
+    bottom: 32px;
+    height: 32px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+  }
+
+  .sabox-modal-header-logo {
+    width: 256px;
+    float: left;
+    padding: 8px;
+  }
+  
+  .sabox-modal-header-logo img {
+    vertical-align: middle;
+    margin-top: -25px;
+  }
+  .sabox-modal-header-logo .sabox-header-title {
+    display: inline-block;
+  }
+  
+  .sabox-modal-header-logo .sabox-header-title h2 {
+    margin: 6px 0 4px 0;
+    font-size: x-large;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0px;
+  }
+  .sabox-modal-header-info {
+    width: calc(100% - 540px);
+    float: left;
+    text-align: center;
+  }
+  
+  .sabox-modal-header-right {
+    width: 180px;
+    float: left;
+    padding-left:40px;
+  }
+  
+  .sabox-modal-header-info .modal-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .sabox-modal-header-right .toggle-wrapper{
+      vertical-align: middle;
+  }
+  .sabox-modal-selected-path {
+    color: #007cba;
+  }
+  
+  .sabox-modal-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    right: 0px;
+    overflow: hidden;
+    box-shadow: 1px 1px 13px #0000007a;
+    z-index: 9999;
+  }

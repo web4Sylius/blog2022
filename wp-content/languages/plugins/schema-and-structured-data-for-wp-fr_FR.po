@@ -1,0 +1,1590 @@
+# Translation of Plugins - Schema &amp; Structured Data for WP &amp; AMP - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Schema &amp; Structured Data for WP &amp; AMP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-06-02 23:35:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Schema &amp; Structured Data for WP &amp; AMP - Stable (latest release)\n"
+
+#: modules/reviews/templates/review-template.php:75
+msgid "1 Star"
+msgstr "1 étoile"
+
+#: modules/reviews/templates/review-template.php:74
+msgid "2 Star"
+msgstr "2 étoiles"
+
+#: modules/reviews/templates/review-template.php:73
+msgid "3 Star"
+msgstr "3 étoiles"
+
+#: modules/reviews/templates/review-template.php:72
+msgid "4 Star"
+msgstr "4 étoiles"
+
+#: modules/reviews/templates/review-template.php:71
+msgid "5 Star"
+msgstr "5 étoiles"
+
+#: modules/reviews/templates/review-template.php:143
+msgid "Load More"
+msgstr "Charger plus"
+
+#: modules/reviews/templates/review-template.php:57
+msgid "Oldest First"
+msgstr "Le plus ancien en premier"
+
+#: modules/reviews/templates/review-template.php:55
+msgid "Latest First"
+msgstr "Le plus récent en premier"
+
+#: modules/reviews/templates/review-template.php:53
+msgid "Highlighted"
+msgstr "Mis en évidence"
+
+#: modules/reviews/templates/review-template.php:51
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: modules/reviews/templates/review-template.php:43
+msgid "Sort:"
+msgstr "Trier :"
+
+#: modules/reviews/templates/review-layout/review-one-template.php:74
+#: modules/reviews/templates/review-layout/review-two-template.php:74
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: modules/reviews/templates/review-layout/review-one-template.php:55
+#: modules/reviews/templates/review-layout/review-two-template.php:66
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: modules/reviews/templates/reply-template.php:45
+msgid "Highlight"
+msgstr "Mettre en évidence"
+
+#: modules/reviews/templates/pros-cons-template.php:41
+msgid "CONS"
+msgstr "Contre"
+
+#: modules/reviews/templates/author-template.php:14
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: modules/reviews/templates/author-template.php:11
+msgid "by:"
+msgstr "par :"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:1429
+msgid "Submit Review"
+msgstr "Envoyer un avis"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:1244
+msgid "Write your review"
+msgstr "Rédiger votre avis"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:1232
+msgid "Edit your review"
+msgstr "Modifier votre avis"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:1217
+msgid "Sorry! You do not have permission."
+msgstr "Désolé ! Vous n’avez pas le droit."
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:696
+#: modules/reviews/class-saswp-review-feature-frontend.php:845
+msgid "Invalid file type: %s. Supported file types: %s"
+msgstr "Type de fichier invalide : %s. Types de fichiers pris en charge : %s"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:361
+#: modules/reviews/class-saswp-review-feature-frontend.php:1420
+msgid "External Video Link"
+msgstr "Lien de la vidéo externe"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:352
+#: modules/reviews/class-saswp-review-feature-frontend.php:1411
+msgid "Choose Video"
+msgstr "Choisir une vidéo"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:345
+#: modules/reviews/class-saswp-review-feature-frontend.php:1404
+msgid "External Video"
+msgstr "Vidéo externe"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:344
+#: modules/reviews/class-saswp-review-feature-frontend.php:1403
+msgid "Hosted Video"
+msgstr "Vidéo hébergée"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:112
+msgid "Enter Title"
+msgstr "Saisir le titre"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1555
+#: modules/reviews/class-saswp-review-feature-frontend.php:319
+msgid "Choose Image"
+msgstr "Choisir une image"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1506
+#: modules/reviews/class-saswp-review-feature-frontend.php:294
+#: modules/reviews/class-saswp-review-feature-frontend.php:1357
+msgid "Add Cons"
+msgstr "Ajouter des inconvénients"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1476
+#: modules/reviews/class-saswp-review-feature-frontend.php:280
+#: modules/reviews/class-saswp-review-feature-frontend.php:1326
+msgid "Add Pros"
+msgstr "Ajouter des avantages"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:378
+msgid "Review anonymously"
+msgstr "Donner son avis anonymement"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1452
+#: modules/reviews/class-saswp-review-feature-frontend.php:272
+#: modules/reviews/class-saswp-review-feature-frontend.php:1301
+#: modules/reviews/templates/pros-cons-template.php:25
+msgid "PROS"
+msgstr "Avantages"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:408
+msgid "Pagination Type"
+msgstr "Type de pagination"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:157
+#: modules/reviews/class-saswp-review-feature-frontend.php:148
+msgid "Edit"
+msgstr "Modifier"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:158
+#: modules/reviews/class-saswp-review-feature-admin.php:1549
+#: modules/reviews/class-saswp-review-feature-frontend.php:149
+#: modules/reviews/class-saswp-review-feature-frontend.php:313
+#: modules/reviews/class-saswp-review-feature-frontend.php:1374
+#: modules/reviews/class-saswp-review-feature-frontend.php:1380
+msgid "Upload Image"
+msgstr "Téléverser l’image"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:159
+#: modules/reviews/class-saswp-review-feature-frontend.php:150
+#: modules/reviews/class-saswp-review-feature-frontend.php:339
+#: modules/reviews/class-saswp-review-feature-frontend.php:1398
+msgid "Upload Video"
+msgstr "Téléverser la vidéo"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:161
+#: modules/reviews/class-saswp-review-feature-frontend.php:152
+msgid "Are you sure to delete?"
+msgstr "Confirmez-vous vouloir supprimer ?"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:206
+msgid "Style"
+msgstr "Style"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:285
+msgid "Criteria"
+msgstr "Critères"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:156
+#: modules/reviews/class-saswp-review-feature-frontend.php:147
+msgid "Loading..."
+msgstr "Chargement en cours…"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:344
+msgid "Add New"
+msgstr "Ajouter"
+
+#: modules/reviews/templates/summary-layout/summary-two-template.php:29
+msgid "OVERALL"
+msgstr "GLOBAL"
+
+#: modules/reviews/templates/review-template.php:29
+msgid "Reviewed by %d user"
+msgid_plural "Reviewed by %d users"
+msgstr[0] "Évalué par %d utilisateur/utilisatrice"
+msgstr[1] "Évalué par %d utilisateurs/utilisatrices"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:313
+msgid "Multi criteria"
+msgstr "Multi critères"
+
+#: modules/reviews/templates/review-template.php:47
+msgid "Top Rated"
+msgstr "Les mieux notés"
+
+#: modules/reviews/templates/review-template.php:49
+msgid "Low Rated"
+msgstr "Les moins bien notés"
+
+#: modules/reviews/templates/review-template.php:68
+msgid "Filter:"
+msgstr "Filtre :"
+
+#: modules/reviews/templates/author-template.php:27
+msgid "Verified Customer"
+msgstr "Client vérifié/cliente vérifiée"
+
+#: modules/reviews/class-saswp-review-feature-frontend.php:701
+#: modules/reviews/class-saswp-review-feature-frontend.php:850
+msgid "File is too large. Max. upload file size is %s"
+msgstr "Le fichier est trop volumineux. La taille maximale du fichier à téléverser est de %s."
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1491
+#: modules/reviews/class-saswp-review-feature-admin.php:1499
+#: modules/reviews/class-saswp-review-feature-frontend.php:291
+#: modules/reviews/class-saswp-review-feature-frontend.php:1342
+#: modules/reviews/class-saswp-review-feature-frontend.php:1350
+msgid "Write Cons"
+msgstr "Écrire des inconvénients"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1461
+#: modules/reviews/class-saswp-review-feature-admin.php:1469
+#: modules/reviews/class-saswp-review-feature-frontend.php:277
+#: modules/reviews/class-saswp-review-feature-frontend.php:1311
+#: modules/reviews/class-saswp-review-feature-frontend.php:1319
+msgid "Write Pros"
+msgstr "Écrire des avantages"
+
+#: modules/reviews/templates/review-template.php:45
+msgid "All Review"
+msgstr "Tous les avis"
+
+#: modules/reviews/templates/summary-layout/summary-one-template.php:31
+msgid "Based on %d rating"
+msgid_plural "Based on %d ratings"
+msgstr[0] "Basé sur %d avis"
+msgstr[1] "Basé sur %d avis"
+
+#: admin_section/settings.php:4851
+msgid "Query"
+msgstr "Requête"
+
+#: admin_section/settings.php:2082
+msgid "This section has been shifted to"
+msgstr "Cette section a été déplacée vers"
+
+#: admin_section/settings.php:2082
+msgid "Premium Features Tab"
+msgstr "Onglet de fonctionnalités Premium"
+
+#: admin_section/settings.php:902 admin_section/settings.php:920
+#: admin_section/settings.php:938
+msgid "Get The Service"
+msgstr "Obtenir le service"
+
+#: admin_section/class-saswp-schema-templates.php:101
+msgid "Template Type"
+msgstr "Type de modèle"
+
+#: admin_section/class-saswp-schema-templates.php:44
+msgid "Edit Template"
+msgstr "Modifier le modèle"
+
+#: admin_section/class-saswp-schema-templates.php:42
+#: admin_section/class-saswp-schema-templates.php:43
+msgid "Add New Template"
+msgstr "Ajouter un nouveau modèle"
+
+#: admin_section/class-saswp-schema-templates.php:40
+#: admin_section/class-saswp-schema-templates.php:41
+#: admin_section/class-saswp-schema-templates.php:80
+msgid "Schema Template"
+msgstr "Modèle de schéma"
+
+#: admin_section/class-saswp-schema-templates.php:45
+msgid "Schema Templates"
+msgstr "Modèles de schéma"
+
+#: modules/elementor/widgets/class-faq-block.php:92
+msgid "Add Schema"
+msgstr "Ajouter un schéma"
+
+#: admin_section/structure-admin.php:932
+msgid "URL Parameter"
+msgstr "Paramètre d’URL"
+
+#: view/schema-type.php:463
+msgid "Sub Schema Type"
+msgstr "Type de sous-schéma"
+
+#: view/schema-type.php:1027 view/schema-type.php:1071
+msgid "Note:"
+msgstr "Note :"
+
+#: admin_section/settings.php:448
+msgid "InActive"
+msgstr "Inactif"
+
+#: view/class-saswp-post-specific.php:448
+msgid "Disable custom schema on this page"
+msgstr "Désactiver le schéma personnalisé sur cette page"
+
+#: view/schema-type.php:1139
+msgid "Modify Schema Output"
+msgstr "Modifier la sortie du schéma"
+
+#: view/schema-type.php:958
+msgid "Add FAQ markup, Only if FAQ is available on the page"
+msgstr "Ajouter un balisage FAQ, uniquement si FAQ est disponible sur la page"
+
+#: view/schema-type.php:949
+msgid "Add VideoObject markup, Only if video is available on the post"
+msgstr "Ajouter un balisage VideoObject, uniquement si une vidéo est disponible dans la publication"
+
+#: view/schema-type.php:928
+msgid "classname"
+msgstr "nom de classe"
+
+#: view/schema-type.php:412
+msgid "Organization Type"
+msgstr "Type d’organisation"
+
+#: view/class-saswp-post-specific.php:458
+msgid "JSON-LD"
+msgstr "JSON-LD"
+
+#: output/rest-api/wpgraphql.php:30
+msgid "Get the whole Json-ld generated by from Schema & Structured Data for WP & AMP"
+msgstr "Obtenir l’intégralité du JSON-LD généré par Schema & Structured Data for WP & AMP"
+
+#: modules/reviews/class-saswp-reviews-collection.php:880
+#: modules/reviews/class-saswp-reviews-collection.php:904
+msgid "Hide Review Image"
+msgstr "Masquer l’image de l’avis"
+
+#: modules/reviews/class-saswp-reviews-collection.php:876
+msgid "Without Page Reload"
+msgstr "Sans rechargement de page"
+
+#: modules/reviews/class-saswp-reviews-collection.php:816
+msgid "Platform URL"
+msgstr "URL de la plateforme"
+
+#: modules/reviews/class-saswp-reviews-collection.php:433
+msgid "Platform id is missing"
+msgstr "L’ID de la plateforme est manquant"
+
+#: modules/reviews/class-saswp-reviews-collection.php:430
+msgid "No Records Found"
+msgstr "Aucun enregistrement trouvé"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:408
+msgid "5"
+msgstr "5"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:385
+msgid "Demo Review Text"
+msgstr "Texte de l’avis démo"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:371
+msgid "Design Preview"
+msgstr "Aperçu du design"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:365
+msgid "Reset to Default"
+msgstr "Réinitialiser les valeurs par défaut"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:338
+msgid "Average Rating"
+msgstr "Évaluation moyenne"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:326
+msgid "Review Rating Stars"
+msgstr "Étoiles de notation"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:278
+#: modules/rating-box/class-saswp-rating-box-backend.php:305
+#: modules/rating-box/class-saswp-rating-box-backend.php:332
+#: modules/rating-box/class-saswp-rating-box-backend.php:344
+msgid "Size"
+msgstr "Taille"
+
+#: modules/reviews/class-saswp-reviews-collection.php:900
+msgid "Slider Inteval"
+msgstr "Intervalle du diaporama"
+
+#: modules/reviews/class-saswp-reviews-collection.php:897
+msgid "Auto Slide"
+msgstr "Défilement automatique"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:274
+#: modules/rating-box/class-saswp-rating-box-backend.php:301
+#: modules/rating-box/class-saswp-rating-box-backend.php:328
+#: modules/rating-box/class-saswp-rating-box-backend.php:340
+msgid "Color"
+msgstr "Couleur du texte"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:270
+msgid "Background Color"
+msgstr "Couleur de l’arrière-plan"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:268
+msgid "Rating Heading"
+msgstr "Titre de l’évaluation"
+
+#: modules/rating-box/class-saswp-rating-box-backend.php:262
+msgid "Customize The Design Appearance"
+msgstr "Personnaliser l’apparence du design"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:438
+msgid "Source"
+msgstr "Source"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:433
+msgid "Pages"
+msgstr "Pages"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:428
+msgid "Format"
+msgstr "Format"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:423
+msgid "Release Date"
+msgstr "Date de sortie"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:413
+msgid "Genre"
+msgstr "Genre"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:403
+msgid "Series"
+msgstr "Séries"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:330
+msgid "kcal"
+msgstr "kcal"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:306
+msgid "Difficulty"
+msgstr "Difficulté"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:302
+msgid "Cusine"
+msgstr "Cuisine"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:299
+msgid "Course"
+msgstr "Plat"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:296
+msgid "Recipe By"
+msgstr "Recette de"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:259
+msgid "Base Salary: "
+msgstr "Salaire de base : "
+
+#: admin_section/tracking/deactivate-feedback.php:10
+msgid "Name of the plugin"
+msgstr "Nom de l’extension"
+
+#: admin_section/tracking/deactivate-feedback.php:6
+msgid "Please describe the feature"
+msgstr "Veuillez décrire la fonctionnalité"
+
+#: admin_section/structure-admin.php:2578
+msgid "Custom profile information"
+msgstr "Personnaliser les informations de profil"
+
+#: admin_section/structure-admin.php:985
+msgid "After Published"
+msgstr "Après la publication"
+
+#: admin_section/settings.php:2530
+msgid "to download the format."
+msgstr "pour télécharger le format."
+
+#: admin_section/settings.php:2530
+msgid "You must follow the format."
+msgstr "Vous devez suivre le format."
+
+#: admin_section/settings.php:2527
+msgid "Upload Reviews From CSV"
+msgstr "Téléverser des avis depuis un fichier CSV"
+
+#: admin_section/settings.php:2388
+msgid "Renew License"
+msgstr "Renouveler la licence"
+
+#: admin_section/settings.php:2405 admin_section/settings.php:2408
+msgid "Enter License Key"
+msgstr "Saisir la clé de la licence"
+
+#: admin_section/settings.php:1963
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: admin_section/settings.php:275
+msgid "Hi"
+msgstr "Bonjour"
+
+#: admin_section/settings.php:234
+msgid "License has been"
+msgstr "La licence a été"
+
+#: admin_section/settings.php:232 admin_section/settings.php:243
+msgid "One of your"
+msgstr "Une de vos"
+
+#: admin_section/settings.php:215 admin_section/settings.php:220
+#: admin_section/settings.php:226 admin_section/settings.php:245
+msgid "Your License is"
+msgstr "Votre licence est"
+
+#: admin_section/common-function.php:5302
+msgid "File does not exist."
+msgstr "Le fichier n’existe pas."
+
+#: admin_section/common-function.php:3384
+msgid "Please setup Logo to avoid structured data validation issue."
+msgstr "Veuillez configurer le logo pour éviter les problèmes de validation des données structurées."
+
+#: admin_section/settings.php:232 admin_section/settings.php:243
+msgid "license key is"
+msgstr "clé de licence est"
+
+#: admin_section/common-function.php:3372
+msgid "I already did"
+msgstr "Je l’ai déjà fait"
+
+#: admin_section/common-function.php:3371
+msgid "Nope, May be later"
+msgstr "Non, peut-être ultérieurement"
+
+#: admin_section/common-function.php:3370
+msgid "Ok, you deserve it"
+msgstr "Ok, vous le méritez"
+
+#: modules/reviews/class-saswp-reviews-collection.php:1047
+msgid "Tag"
+msgstr "Étiquette"
+
+#: admin_section/settings.php:2530
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: admin_section/structure-admin.php:2582
+msgid "Custom Schema (SASWP)"
+msgstr "Schéma personnalisé (SASWP)"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:418
+msgid "Publisher"
+msgstr "Éditeur/éditrice"
+
+#: modules/reviews/class-saswp-reviews-collection.php:884
+#: modules/reviews/class-saswp-reviews-collection.php:907
+#: modules/reviews/reviews-setup.php:196
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: modules/reviews/class-saswp-review-feature-admin.php:1445
+#: view/class-saswp-view-common.php:259
+msgid "Pros & Cons"
+msgstr "Avantages et inconvénients"
+
+#. translators: %s: schema type
+#: view/class-saswp-post-specific.php:575
+msgid "Enable %s on this page"
+msgstr "Activer %s sur cette page"
+
+#: view/schema-type.php:42
+msgid "Front End"
+msgstr "Interface publique"
+
+#: view/help.php:51
+msgid "3. Using shortcode"
+msgstr "3. En utilisant un code court"
+
+#: view/help.php:50
+msgid "2. Using Widget"
+msgstr "2. En utilisant un widget"
+
+#: view/help.php:49
+msgid "1. Using Gutenberg Block"
+msgstr "1. En utilisant un bloc Gutenberg"
+
+#: view/help.php:47
+msgid "There are three ways to display it."
+msgstr "Il y a trois façons de l’afficher."
+
+#: view/help.php:43
+msgid "Display On Page Content"
+msgstr "Afficher sur le contenu de la page"
+
+#. translators: %s: button label
+#: view/class-saswp-view-common.php:332
+msgid "Add %s"
+msgstr "Ajouter %s"
+
+#: view/class-saswp-view-common.php:328
+msgid "New Cons"
+msgstr "Nouveaux avantages"
+
+#: view/class-saswp-view-common.php:326
+msgid "New Pros"
+msgstr "Nouveaux inconvénients"
+
+#: output/rest-api/wpgraphql.php:26
+msgid "Data from Schema & Structured Data for WP & AMP"
+msgstr "Données issues de Schema & Structured Data for WP & AMP"
+
+#: output/class-saswp-location-widget.php:12
+msgid "SASWP Location"
+msgstr "Emplacement SASWP"
+
+#: modules/reviews/class-saswp-reviews-collection.php:1126
+msgid "Save Collection"
+msgstr "Enregistrer la collection"
+
+#: modules/reviews/class-saswp-reviews-collection.php:1037
+msgid "Where"
+msgstr "Où"
+
+#: modules/reviews/class-saswp-reviews-collection.php:963
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: modules/reviews/class-saswp-reviews-collection.php:942
+msgid "Default Reviewer Image"
+msgstr "Image de l’évaluateur par défaut"
+
+#: modules/reviews/class-saswp-reviews-collection.php:937
+msgid "Stars Color Picker"
+msgstr "Sélecteur de couleur des étoiles"
+
+#: modules/reviews/class-saswp-reviews-collection.php:918
+msgid "Date Format"
+msgstr "Format de date"
+
+#: modules/reviews/class-saswp-reviews-collection.php:932
+msgid "Exclude Source Link"
+msgstr "Exclure le lien source"
+
+#: admin_section/plugin-installer/install.php:317
+msgid "ScholarlyArticle"
+msgstr "ScholarlyArticle"
+
+#: admin_section/plugin-installer/install.php:315
+msgid "ItemPage"
+msgstr "ItemPage"
+
+#: admin_section/plugin-installer/install.php:313
+msgid "ReviewNewsArticle"
+msgstr "ReviewNewsArticle"
+
+#: admin_section/plugin-installer/install.php:312
+msgid "ReportageNewsArticle"
+msgstr "ReportageNewsArticle"
+
+#: admin_section/plugin-installer/install.php:311
+msgid "OpinionNewsArticle"
+msgstr "OpinionNewsArticle"
+
+#: admin_section/plugin-installer/install.php:310
+msgid "BackgroundNewsArticle"
+msgstr "BackgroundNewsArticle"
+
+#: admin_section/plugin-installer/install.php:309
+msgid "AskPublicNewsArticle"
+msgstr "AskPublicNewsArticle"
+
+#: admin_section/plugin-installer/install.php:308
+msgid "AnalysisNewsArticle"
+msgstr "AnalysisNewsArticle"
+
+#: output/class-saswp-location-widget.php:55
+msgid "Locations"
+msgstr "Localisations"
+
+#: output/class-saswp-location-widget.php:61
+msgid "Select Location"
+msgstr "Sélectionner une localisation"
+
+#: modules/reviews/class-saswp-reviews-collection.php:991
+msgid "Specific Rating"
+msgstr "Évaluation spécifique"
+
+#: output/class-saswp-location-widget.php:13
+#: output/class-saswp-location-widget.php:53
+msgid "Widget to display location"
+msgstr "Widget pour afficher la localisation"
+
+#. translators: %s: schema type
+#: view/class-saswp-post-specific.php:562
+msgid "%s schema is fetched automatically"
+msgstr "Le schéma %s est récupéré automatiquement"
+
+#: admin_section/settings.php:220 admin_section/settings.php:226
+#: admin_section/settings.php:239 admin_section/settings.php:250
+#: admin_section/settings.php:2368 admin_section/settings.php:2374
+#: admin_section/settings.php:2381 admin_section/settings.php:2448
+msgid "Renew"
+msgstr "Renouveler"
+
+#: modules/reviews/reviews-setup.php:652
+msgid "Add to collection"
+msgstr "Ajouter à la collection"
+
+#: modules/reviews/reviews-setup.php:651
+msgid "Use these reviews to create a collection and use them to show on frontend."
+msgstr "Utiliser ces avis pour créer une collection et les afficher sur le site."
+
+#: modules/reviews/reviews-setup.php:645
+msgid "Use Below shortcode to show reviews form in your website. Using this you can collect reviews from your website directly."
+msgstr "Utiliser le code court ci-dessous pour afficher un formulaire d’avis sur votre site web. En utilisant ceci, vous pouvez recueillir des avis depuis votre site directement."
+
+#: modules/elementor/widgets/class-qanda-block.php:271
+msgid "vote"
+msgstr "vote"
+
+#: modules/elementor/widgets/class-qanda-block.php:270
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:12
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:50
+msgid "by"
+msgstr "par"
+
+#: modules/elementor/widgets/class-qanda-block.php:245
+msgid "By"
+msgstr "Par "
+
+#: modules/elementor/widgets/class-qanda-block.php:199
+msgid "suggested Answers List"
+msgstr "Liste de réponses suggérées"
+
+#: modules/elementor/widgets/class-qanda-block.php:152
+#: modules/elementor/widgets/class-qanda-block.php:255
+#: modules/elementor/widgets/class-qanda-block.php:359
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:40
+msgid "Suggested Answers"
+msgstr "Réponses suggérées"
+
+#: modules/elementor/widgets/class-qanda-block.php:138
+msgid "Accepted Answers List"
+msgstr "Liste de réponses acceptées"
+
+#: modules/elementor/widgets/class-qanda-block.php:129
+#: modules/elementor/widgets/class-qanda-block.php:190
+msgid "Date Created"
+msgstr "Date de création"
+
+#: modules/elementor/widgets/class-qanda-block.php:91
+#: modules/elementor/widgets/class-qanda-block.php:225
+#: modules/elementor/widgets/class-qanda-block.php:230
+#: modules/elementor/widgets/class-qanda-block.php:318
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:18
+msgid "Accepted Answers"
+msgstr "Réponses acceptées"
+
+#: admin_section/structure-admin.php:945
+#: modules/elementor/widgets/class-qanda-block.php:77
+msgid "Date"
+msgstr "Date"
+
+#: modules/elementor/widgets/class-qanda-block.php:18
+msgid "Q&A Block"
+msgstr "Bloc Q&R"
+
+#: modules/elementor/widgets/class-qanda-block.php:60
+#: modules/elementor/widgets/class-qanda-block.php:108
+#: modules/elementor/widgets/class-qanda-block.php:169
+#: modules/elementor/widgets/class-qanda-block.php:227
+#: modules/elementor/widgets/class-qanda-block.php:246
+#: modules/elementor/widgets/class-qanda-block.php:345
+#: modules/elementor/widgets/class-qanda-block.php:386
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:14
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:29
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:51
+msgid "Vote"
+msgstr "Voter"
+
+#: modules/elementor/widgets/class-qanda-block.php:53
+msgid "Enter Question Description"
+msgstr "Saisir une description de la question"
+
+#: modules/elementor/widgets/class-qanda-block.php:44
+msgid "Enter Question Name"
+msgstr "Saisir le nom de la question"
+
+#: modules/elementor/widgets/class-qanda-block.php:70
+msgid "Enter author name"
+msgstr "Saisir le nom de l’auteur/autrice"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:110
+#: modules/gutenberg/assets/blocks/event.js:401
+msgid "Attendance Mode"
+msgstr "Mode de présence"
+
+#: modules/elementor/widgets/class-howto-block.php:280
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:315
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:320
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:325
+msgid "minutes"
+msgstr "minutes"
+
+#: modules/elementor/widgets/class-howto-block.php:277
+msgid "hours"
+msgstr "heures"
+
+#: admin_section/settings.php:220 admin_section/settings.php:226
+#: admin_section/settings.php:2380
+#: modules/elementor/widgets/class-howto-block.php:274
+msgid "days"
+msgstr "jours"
+
+#: modules/elementor/widgets/class-howto-block.php:186
+msgid "Tool"
+msgstr "Outil"
+
+#: modules/elementor/widgets/class-howto-block.php:175
+msgid "Enter tool name"
+msgstr "Saisir un nom d’outil"
+
+#: modules/elementor/widgets/class-howto-block.php:151
+msgid "Step Title"
+msgstr "Titre de l’étape"
+
+#: modules/elementor/widgets/class-howto-block.php:127
+msgid "Enter step title"
+msgstr "Saisir un titre d’étape"
+
+#: modules/elementor/widgets/class-howto-block.php:125
+msgid "Step"
+msgstr "Étape"
+
+#: modules/elementor/widgets/class-howto-block.php:116
+#: modules/elementor/widgets/class-howto-block.php:146
+msgid "Steps"
+msgstr "Étapes"
+
+#: modules/elementor/widgets/class-howto-block.php:69
+#: modules/elementor/widgets/class-howto-block.php:288
+msgid "Estimate Cost"
+msgstr "Estimation du coût"
+
+#: modules/elementor/widgets/class-howto-block.php:58
+msgid "Minutes"
+msgstr "Minutes"
+
+#: modules/elementor/widgets/class-howto-block.php:49
+msgid "Hours"
+msgstr "Heures"
+
+#: modules/elementor/widgets/class-howto-block.php:40
+msgid "Days"
+msgstr "Jours"
+
+#: modules/elementor/widgets/class-howto-block.php:32
+#: modules/elementor/widgets/class-howto-block.php:271
+msgid "Time Needed"
+msgstr "Temps nécessaire"
+
+#: modules/elementor/widgets/class-howto-block.php:18
+msgid "HowTo Block"
+msgstr "Bloc tutoriel"
+
+#: modules/elementor/widgets/class-howto-block.php:152
+msgid "Step Description. Click the edit button to change this text."
+msgstr "Description de l’étape. Cliquez sur le bouton pour modifier ce texte."
+
+#: modules/elementor/widgets/class-howto-block.php:199
+msgid "Materials"
+msgstr "Fournitures"
+
+#: modules/elementor/widgets/class-howto-block.php:221
+#: modules/elementor/widgets/class-howto-block.php:357
+msgid "Material"
+msgstr "Fourniture"
+
+#: modules/elementor/widgets/class-howto-block.php:208
+msgid "Material Name"
+msgstr "Nom de la fourniture"
+
+#: modules/elementor/widgets/class-howto-block.php:173
+msgid "Tool Name"
+msgstr "Nom de l’outil"
+
+#: modules/elementor/widgets/class-howto-block.php:210
+msgid "Enter material name"
+msgstr "Saisir un nom de fourniture"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:70
+msgid "Input your question here"
+msgstr "Saisir votre question ici"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:38
+#: modules/elementor/widgets/class-qanda-block.php:51
+#: modules/elementor/widgets/class-qanda-block.php:100
+#: modules/elementor/widgets/class-qanda-block.php:161
+#: modules/reviews/reviews-setup.php:265
+#: modules/gutenberg/assets/blocks/qanda.js:336
+#: modules/gutenberg/assets/blocks/qanda.js:399
+msgid "Text"
+msgstr "Texte"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:25
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:67
+#: modules/elementor/widgets/class-faq-block.php:41
+#: modules/elementor/widgets/class-faq-block.php:44
+#: modules/elementor/widgets/class-qanda-block.php:34
+msgid "Question"
+msgstr "Question"
+
+#: modules/elementor/widgets/class-faq-block.php:82
+msgid "First Answer. Click the edit button to change this text."
+msgstr "Première réponse. Cliquez sur le bouton pour modifier son contenu."
+
+#: modules/elementor/widgets/class-faq-block.php:81
+msgid "First Question"
+msgstr "Première question"
+
+#: modules/elementor/widgets/class-faq-block.php:76
+msgid "Question List"
+msgstr "Liste des questions"
+
+#: modules/divi-builder/includes/modules/FaqBlock/class-saswp-divi-faqblock.php:28
+#: modules/elementor/widgets/class-faq-block.php:68
+#: modules/elementor/widgets/class-howto-block.php:247
+msgid "Unorder List"
+msgstr "Liste non ordonnée"
+
+#: modules/divi-builder/includes/modules/FaqBlock/class-saswp-divi-faqblock.php:15
+#: modules/elementor/widgets/class-faq-block.php:18
+msgid "Faq Block"
+msgstr "Bloc FAQ"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:77
+msgid "Input your answer here"
+msgstr "Saisir votre réponse ici"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:74
+#: modules/elementor/widgets/class-faq-block.php:53
+#: modules/elementor/widgets/class-faq-block.php:56
+msgid "Answer"
+msgstr "Réponse"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:43
+msgid "Heading Text"
+msgstr "Texte de l’en-tête"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:26
+msgid "Question Settings"
+msgstr "Réglages des questions"
+
+#: modules/elementor/widgets/class-faq-block.php:32
+msgid "FAQ Block"
+msgstr "Bloc FAQ"
+
+#: modules/divi-builder/includes/modules/FaqBlock/class-saswp-divi-faqblock.php:27
+#: modules/elementor/widgets/class-faq-block.php:67
+#: modules/elementor/widgets/class-howto-block.php:246
+msgid "Order List"
+msgstr "Liste ordonnée"
+
+#: modules/divi-builder/includes/modules/FaqBlock/class-saswp-divi-faqblock.php:22
+#: modules/elementor/widgets/class-faq-block.php:63
+#: modules/elementor/widgets/class-howto-block.php:242
+msgid "Order Type"
+msgstr "Type de liste"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:901
+msgid "Submit and Deactivate"
+msgstr "Envoyer et désactiver"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:841
+msgid "Submitting form"
+msgstr "Soumission du formulaire"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:801
+msgid "Details (optional)"
+msgstr "Détails (facultatif)"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:799
+msgid "Didn't work"
+msgstr "N’a pas fonctionné"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:797
+msgid "Installed by mistake"
+msgstr "Installé par erreur"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:796
+msgid "Found a better plugin"
+msgstr "J’ai trouvé une meilleure extension"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:798
+msgid "Only required temporarily"
+msgstr "Uniquement nécessaire temporairement"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:795
+msgid "Not the features I wanted"
+msgstr "Ce ne sont pas les fonctionnalités que je voulais"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:794
+msgid "Lack of documentation"
+msgstr "Manque de documentation"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:790
+msgid "Sorry to see you go"
+msgstr "Désolé de vous voir partir"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:761
+msgid "No Thank You"
+msgstr "Non merci"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:760
+msgid "Yes Please"
+msgstr "Oui s’il vous plaît"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:714
+msgid "No thanks"
+msgstr "Non merci"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:273
+msgid "We can't detect any product information. This is most probably because you have not included the code snippet."
+msgstr "Nous ne pouvons pas détecter les informations sur le produit. C’est probablement parce que vous n’avez pas inclus l’extrait de code."
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:490
+#: modules/gutenberg/assets/blocks/course.js:217
+msgid "Provider Website"
+msgstr "Site du prestataire"
+
+#: admin_section/settings.php:4847
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:160
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:177
+#: modules/gutenberg/assets/blocks/event.js:521
+#: modules/gutenberg/assets/blocks/event.js:592
+msgid "Email"
+msgstr "E-mail"
+
+#. translators: %s: product type
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:704
+msgid "Thank you for installing our %1$s. We'd like your permission to track its usage on your site and subscribe you to our newsletter. We won't record any sensitive data, only information regarding the WordPress environment and %1$s settings, which we will use to help us make improvements to the %1$s. Tracking is completely optional."
+msgstr "Merci d’avoir installé notre %1$s. Nous aimerions avoir votre permission pour suivre son utilisation sur votre site et vous abonner à notre newsletter. Nous n’enregistrerons aucune donnée sensible, seulement des informations concernant l’environnement de WordPress et les réglages de %1$s, que nous utiliserons pour nous aider à apporter des améliorations au %1$s. Le suivi est complètement facultatif."
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:793
+msgid "Set up is too difficult"
+msgstr "La configuration est trop difficile"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:713
+msgid "Sure! I'd love to help"
+msgstr "Bien sûr, j’aimerais aider"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:901
+msgid "Just Deactivate"
+msgstr "Désactiver simplement"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:791
+msgid "Before you deactivate the plugin, would you quickly give us your reason for doing so?"
+msgstr "Avant de désactiver l’extension, pourriez-vous rapidement nous donner votre raison ?"
+
+#. translators: %s: product type
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:753
+msgid "Thank you for opting in to tracking. Would you like to receive occasional news about this %s, including details of new features and special offers?"
+msgstr "Merci d’avoir opté pour le suivi. Souhaitez-vous recevoir des nouvelles occasionnelles sur ce %s, y compris les détails des nouvelles fonctionnalités et des offres spéciales ?"
+
+#. translators: %s: product type
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:701
+msgid "Become a super contributor by opting in to our anonymous %1$s data collection and to our updates. We guarantee no sensitive data is collected."
+msgstr "Devenez un super contributeur ou contributrice en acceptant notre collecte de données non sensibles de %1$s et pour nos mises à jour. Nous garantissons qu’aucune donnée sensible n’est collectée."
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:152
+#: modules/gutenberg/assets/blocks/event.js:537
+#: modules/gutenberg/assets/blocks/liveblogposting.js:494
+msgid "Organizers"
+msgstr "Organisateurs/organisatrices"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:169
+#: modules/gutenberg/assets/blocks/event.js:608
+#: modules/gutenberg/assets/blocks/liveblogposting.js:554
+msgid "Performers"
+msgstr "Intervenants/intervenantes"
+
+#: admin_section/settings.php:4859
+#: modules/divi-builder/includes/modules/FaqBlock/class-saswp-divi-faqblock.php:26
+#: modules/elementor/widgets/class-faq-block.php:66
+#: modules/elementor/widgets/class-howto-block.php:245
+msgid "Select"
+msgstr "Sélectionner"
+
+#: admin_section/structure-admin.php:2083
+msgid "Your license key may not belong to this extension."
+msgstr "Votre clé de licence n’appartient peut-être pas à cette extension."
+
+#: modules/elementor/widgets/class-howto-block.php:107
+#: modules/gutenberg/assets/blocks/howto.js:1057
+msgid "Enter how to description"
+msgstr "Saisir une description de comment faire"
+
+#: core/array-list/meta-list.php:64
+msgid "Fixed Image"
+msgstr "Image fixe"
+
+#: core/array-list/meta-list.php:16
+msgid "Category"
+msgstr "Catégorie"
+
+#: output/class-saswp-output-service.php:79
+#: output/class-saswp-output-service.php:86
+msgid "Advanced Custom Fields"
+msgstr "Champs personnalisés avancés"
+
+#: core/array-list/meta-list.php:50
+msgid "Featured image"
+msgstr "Image mise en avant"
+
+#: core/array-list/meta-list.php:39 core/array-list/meta-list.php:41
+#: core/array-list/meta-list.php:62 core/array-list/meta-list.php:65
+msgid "Custom Field"
+msgstr "Champ personnalisé"
+
+#: core/array-list/meta-list.php:23
+msgid "Last Modify Date"
+msgstr "Date de dernière modification"
+
+#: core/array-list/meta-list.php:22
+msgid "Publish Date"
+msgstr "Date de publication"
+
+#: core/array-list/meta-list.php:18
+msgid "Permalink"
+msgstr "Permalien"
+
+#: core/array-list/meta-list.php:17
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: core/array-list/meta-list.php:15
+#: modules/divi-builder/includes/modules/FaqBlockChild/class-saswp-divi-faqblockchild.php:32
+msgid "Content"
+msgstr "Contenu"
+
+#: core/array-list/meta-list.php:13
+msgid "Site URL"
+msgstr "URL du site"
+
+#: core/array-list/meta-list.php:12
+msgid "Tagline"
+msgstr "Slogan"
+
+#: core/array-list/meta-list.php:11
+msgid "Site Title"
+msgstr "Titre du site"
+
+#: core/array-list/meta-list.php:9 core/array-list/meta-list.php:48
+msgid "Single Element"
+msgstr "Élément unique"
+
+#: core/array-list/meta-list.php:58
+msgid "Manual Image URL"
+msgstr "URL de l’image de la notice"
+
+#: core/array-list/meta-list.php:51
+msgid "Author image"
+msgstr "Image de l’auteur/autrice"
+
+#: core/array-list/meta-list.php:21
+msgid "Author Last Name"
+msgstr "Nom de famille de l’auteur/autrice"
+
+#: core/array-list/meta-list.php:20
+msgid "Author First Name"
+msgstr "Prénom de l’auteur/autrice"
+
+#: admin_section/structure-admin.php:931 core/array-list/meta-list.php:19
+msgid "Author Name"
+msgstr "Nom de l’auteur/autrice"
+
+#: core/array-list/meta-list.php:33
+msgid "Manual Field"
+msgstr "Champs manuel"
+
+#: core/array-list/meta-list.php:35
+msgid "Manual Text"
+msgstr "Texte manuel"
+
+#: core/array-list/meta-list.php:56
+msgid "Manual field"
+msgstr "Champs manuel"
+
+#: modules/reviews/reviews-setup.php:400
+msgid "Platforms"
+msgstr "Plateformes"
+
+#: modules/reviews/reviews-setup.php:398
+msgid "Add New Platform"
+msgstr "Ajouter une nouvelle plateforme"
+
+#: modules/reviews/reviews-setup.php:396
+msgid "Edit Platform"
+msgstr "Modifier la plateforme"
+
+#: modules/reviews/reviews-setup.php:395
+msgid "All Platform"
+msgstr "Toutes les plateformes"
+
+#: modules/reviews/reviews-setup.php:393
+msgctxt "taxonomy singular name"
+msgid "Platform"
+msgstr "Plateforme"
+
+#: modules/reviews/reviews-setup.php:392
+msgctxt "taxonomy general name"
+msgid "Platforms"
+msgstr "Plateformes"
+
+#: modules/reviews/reviews-setup.php:34
+#: modules/gutenberg/assets/blocks/event.js:415
+msgid "Location"
+msgstr "Localisation"
+
+#: modules/reviews/reviews-setup.php:399
+msgid "New Platform Name"
+msgstr "Nom de la nouvelle plateforme"
+
+#: modules/reviews/class-saswp-reviews-widget.php:84
+msgid "Reviews :"
+msgstr "Avis :"
+
+#: modules/reviews/reviews-setup.php:397
+msgid "Update Platform"
+msgstr "Mettre à jour la plateforme"
+
+#: modules/reviews/reviews-setup.php:394
+msgid "Search Types"
+msgstr "Types de recherche"
+
+#: core/array-list/meta-list.php:14
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:398
+#: modules/reviews/class-saswp-review-feature-admin.php:1431
+#: modules/reviews/class-saswp-review-feature-admin.php:1434
+#: modules/reviews/class-saswp-review-feature-frontend.php:1240
+#: modules/reviews/reviews-setup.php:264
+msgid "Title"
+msgstr "Titre"
+
+#: admin_section/structure-admin.php:2080
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d’activation."
+
+#: admin_section/structure-admin.php:2077
+msgid "This appears to be an invalid license key."
+msgstr "Cette clé de licence semble non valide."
+
+#: admin_section/structure-admin.php:2074
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n’est pas activée pour cette URL."
+
+#: admin_section/structure-admin.php:2070
+msgid "Invalid license."
+msgstr "Licence non valide."
+
+#: admin_section/structure-admin.php:2067
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#. translators: %s: date
+#: admin_section/structure-admin.php:2064
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: admin_section/structure-admin.php:2005
+#: admin_section/structure-admin.php:2086
+msgid "An error occurred, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#. Author of the plugin
+#: structured-data-for-wp.php
+msgid "Magazine3"
+msgstr "Magazine3"
+
+#: modules/elementor/widgets/class-qanda-block.php:115
+#: modules/elementor/widgets/class-qanda-block.php:176
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:176
+#: modules/gutenberg/assets/blocks/event.js:581
+#: modules/gutenberg/assets/blocks/liveblogposting.js:477
+#: modules/gutenberg/assets/blocks/liveblogposting.js:538
+#: modules/gutenberg/assets/blocks/qanda.js:358
+#: modules/gutenberg/assets/blocks/qanda.js:421
+msgid "URL"
+msgstr "URL"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:77
+#: modules/gutenberg/assets/blocks/event.js:308
+msgid "End Date"
+msgstr "Date de fin"
+
+#: admin_section/settings.php:26 admin_section/settings.php:69
+#: modules/elementor/widgets/class-howto-block.php:234
+#: modules/reviews/class-saswp-review-feature-admin.php:205
+#: modules/gutenberg/assets/blocks/event.js:630
+#: modules/gutenberg/assets/blocks/liveblogposting.js:1006
+#: modules/gutenberg/assets/blocks/qanda.js:490
+msgid "Settings"
+msgstr "Réglages"
+
+#. Author URI of the plugin
+#: structured-data-for-wp.php
+msgid "http://structured-data-for-wp.com/"
+msgstr "http://structured-data-for-wp.com/"
+
+#: modules/elementor/widgets/class-howto-block.php:77
+msgid "Currency"
+msgstr "Devise"
+
+#: modules/elementor/widgets/class-howto-block.php:86
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:104
+#: modules/gutenberg/assets/blocks/event.js:371
+msgid "Price"
+msgstr "Prix"
+
+#: modules/elementor/widgets/class-howto-block.php:97
+#: modules/elementor/widgets/class-howto-block.php:105
+#: modules/elementor/widgets/class-howto-block.php:137
+#: modules/rating-box/class-saswp-rating-box-backend.php:138
+#: modules/gutenberg/assets/blocks/course.js:187
+msgid "Description"
+msgstr "Description"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:489
+#: modules/gutenberg/assets/blocks/course.js:202
+msgid "Provider Name"
+msgstr "Nom du fournisseur"
+
+#: admin_section/settings.php:4843
+#: modules/elementor/widgets/class-qanda-block.php:42
+#: modules/gutenberg/assets/blocks/course.js:111
+#: modules/gutenberg/assets/blocks/event.js:417
+#: modules/gutenberg/assets/blocks/event.js:490
+#: modules/gutenberg/assets/blocks/event.js:571
+#: modules/gutenberg/assets/blocks/liveblogposting.js:467
+#: modules/gutenberg/assets/blocks/liveblogposting.js:528
+msgid "Name"
+msgstr "Nom"
+
+#: core/array-list/meta-list.php:52
+msgid "Logo"
+msgstr "Logo"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:148
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:159
+#: modules/gutenberg/assets/blocks/event.js:459
+#: modules/gutenberg/assets/blocks/event.js:500
+msgid "Phone"
+msgstr "Téléphone"
+
+#: core/array-list/meta-list.php:27 core/array-list/meta-list.php:29
+msgid "Taxonomy Term"
+msgstr "Termes de taxonomie"
+
+#: admin_section/ajax-selectbox.php:196 admin_section/common-function.php:3175
+#: modules/reviews/class-saswp-reviews-collection.php:818
+#: modules/reviews/reviews-setup.php:603 view/schema-type.php:1324
+msgid "All"
+msgstr "Toutes"
+
+#: admin_section/add-schema/add-new.php:574
+#: admin_section/plugin-installer/install.php:572
+msgid "Please define an SVG icon filename."
+msgstr "Veuillez définir un nom de fichier d’icône SVG."
+
+#: admin_section/add-schema/add-new.php:569
+#: admin_section/plugin-installer/install.php:567
+msgid "Please define default parameters in the form of an array."
+msgstr "Veuillez définir les paramètres par défaut sous forme d’un tableau."
+
+#: modules/elementor/widgets/class-howto-block.php:164
+#: modules/elementor/widgets/class-howto-block.php:327
+msgid "Tools"
+msgstr "Outils"
+
+#. Plugin Name of the plugin
+#: structured-data-for-wp.php
+msgid "Schema & Structured Data for WP & AMP"
+msgstr "Schema & Structured Data for WP & AMP"
+
+#: admin_section/add-schema/add-new.php:138
+msgid "ADD NEW SCHEMA"
+msgstr "AJOUTER UN SCHÉMA"
+
+#. Description of the plugin
+#: structured-data-for-wp.php
+msgid "Schema & Structured Data adds Google Rich Snippets markup according to Schema.org guidelines to structure your site for SEO. (AMP Compatible)"
+msgstr "Schema & Structured Data ajoute le balisage d’extraits enrichis d’après les directives de Schema.org pour structurer votre site pour le SEO. (Compatible AMP)"
+
+#: admin_section/plugin-installer/install.php:111
+msgid "Schema and Structured Data Installation Wizard"
+msgstr "Assistant d’installation de Schema and Structured Data"
+
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:99
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:161
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:244
+#: modules/gutenberg/assets/blocks/event.js:364
+#: modules/gutenberg/assets/blocks/event.js:466
+#: modules/gutenberg/assets/blocks/event.js:510
+msgid "Website"
+msgstr "Site"
+
+#: admin_section/structure-admin.php:930
+#: modules/elementor/widgets/class-qanda-block.php:68
+#: modules/elementor/widgets/class-qanda-block.php:122
+#: modules/elementor/widgets/class-qanda-block.php:183
+#: modules/gutenberg/includes/class-saswp-gutenberg-render.php:408
+#: modules/gutenberg/assets/blocks/qanda.js:311
+#: modules/gutenberg/assets/blocks/qanda.js:369
+#: modules/gutenberg/assets/blocks/qanda.js:432
+msgid "Author"
+msgstr "Auteur"
+
+#: admin_section/settings.php:464
+msgid "Misc"
+msgstr "Autre"
+
+#: admin_section/settings.php:401
+#: modules/reviews/class-saswp-review-feature-admin.php:713
+msgid "Support"
+msgstr "Support"
+
+#: admin_section/plugin-installer/install.php:716
+#: admin_section/settings.php:1239
+msgid "Contact"
+msgstr "Contact"
+
+#: admin_section/settings.php:464 admin_section/settings.php:1909
+msgid "Migration"
+msgstr "Migration"
+
+#: admin_section/settings.php:1920
+msgid "Schema Pro"
+msgstr "Scheme Pro"
+
+#: admin_section/settings.php:1925
+msgid "WP SEO Schema"
+msgstr "WP SEO Scheme"
+
+#: admin_section/settings.php:464 admin_section/settings.php:1973
+msgid "Import / Export"
+msgstr "Importer/Exporter"
+
+#: modules/reviews/templates/social-share-template.php:25
+msgid "Share:"
+msgstr "Partager :"
+
+#: admin_section/settings.php:4870
+msgid "Frequently Asked Questions."
+msgstr "Foire Aux Questions."
+
+#: admin_section/settings.php:4864
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+#: admin_section/settings.php:4854
+msgid "Message not sent. please check your network connection"
+msgstr "Message non envoyé. Veuillez vérifier votre connexion réseau"
+
+#: admin_section/settings.php:4853
+msgid "Message sent successfully, Please wait we will get back to you shortly"
+msgstr "Message bien envoyé, veuillez patienter, nous vous répondrons sous peu"
+
+#: admin_section/settings.php:1988 admin_section/settings.php:1992
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: admin_section/settings.php:1977
+msgid "Export"
+msgstr "Exporter"
+
+#: admin_section/settings.php:1977
+msgid "Export All Settings & Schema"
+msgstr "Exporter tous les réglages & Schema"
+
+#: admin_section/settings.php:1981
+msgid "Import All Settings & Schema"
+msgstr "Importer tous les réglages & Schema"
+
+#: admin_section/settings.php:4785
+msgid "Real estate agent info :"
+msgstr "Informations sur l’agent immobilier :"
+
+#: admin_section/add-schema/add-new.php:546
+#: admin_section/plugin-installer/install.php:44
+#: admin_section/plugin-installer/install.php:162
+#: admin_section/plugin-installer/install.php:529
+#: admin_section/plugin-installer/install.php:544
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: admin_section/plugin-installer/install.php:49
+#: admin_section/plugin-installer/install.php:184
+#: admin_section/plugin-installer/install.php:532
+#: admin_section/settings.php:423 admin_section/settings.php:1180
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: admin_section/class-saswp-newsletter-popup.php:82
+msgid "No Thanks"
+msgstr "Non merci"
+
+#: admin_section/settings.php:4907
+msgid "Thanks for using Structured Data!"
+msgstr "Merci d’utiliser Structured Data !"
+
+#: admin_section/add-schema/add-new.php:245
+#: admin_section/add-schema/add-new.php:310
+#: admin_section/add-schema/add-new.php:342
+#: admin_section/plugin-installer/install.php:198
+#: admin_section/plugin-installer/install.php:264
+#: admin_section/plugin-installer/install.php:337
+#: admin_section/plugin-installer/install.php:367
+msgid "Next"
+msgstr "Suivant"
+
+#: admin_section/add-schema/add-new.php:242
+#: admin_section/add-schema/add-new.php:307
+#: admin_section/add-schema/add-new.php:339
+#: admin_section/add-schema/add-new.php:469
+#: admin_section/plugin-installer/install.php:195
+#: admin_section/plugin-installer/install.php:261
+#: admin_section/plugin-installer/install.php:334
+#: admin_section/plugin-installer/install.php:364
+#: admin_section/plugin-installer/install.php:464
+msgid "Skip"
+msgstr "Passer"
+
+#: admin_section/add-schema/add-new.php:156
+#: admin_section/plugin-installer/install.php:129
+msgid "Return to dashboard"
+msgstr "Retourner au tableau de bord"
+
+#: admin_section/add-schema/add-new.php:56
+#: admin_section/add-schema/add-new.php:332
+#: admin_section/plugin-installer/install.php:62
+#: admin_section/plugin-installer/install.php:357
+msgid "Navigate to "
+msgstr "Naviguer vers "
+
+#: admin_section/add-schema/add-new.php:55
+#: admin_section/add-schema/add-new.php:330
+#: admin_section/add-schema/add-new.php:543
+#: admin_section/plugin-installer/install.php:61
+#: admin_section/plugin-installer/install.php:356
+#: admin_section/plugin-installer/install.php:541
+msgid "Enjoy"
+msgstr "Profitez !"
+
+#: admin_section/settings.php:1930
+msgid "SEO Pressor"
+msgstr "SEO Pressor"
+
+#: admin_section/settings.php:1914
+msgid "Schema Plugin"
+msgstr "Schema Plugin"
+
+#: admin_section/settings.php:1188
+msgid "Set the about page of of your website"
+msgstr "Définir la page à propos de votre site"

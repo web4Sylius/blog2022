@@ -1,0 +1,6 @@
+/* Need this specificty to override Divis specific css reset */
+#et-boc .et-l div.search-filter-divi-field-container {
+    /* Need to set a default style of solid, because selecing solid in divi causes no CSS rules to be created */
+    border-style: solid;
+    border-width: 0px;
+}
