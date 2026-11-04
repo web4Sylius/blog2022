@@ -8,3 +8,47 @@ Text Domain:  divi-child
 */
 
 /* Divi charge lui-même la feuille du parent quand un thème enfant est actif. */
+
+/* --- Bloc auteur sous le titre (inc/byline.php) --- */
+.mcav-byline {
+	margin: 12px 0 24px;
+	padding-top: 12px;
+	border-top: 1px solid #e6e6e6;
+	color: #666;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.mcav-byline__people {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.mcav-byline__avatar {
+	flex: 0 0 34px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background: #e8e0d6;
+	color: #7a6a5a;
+	font-size: 12px;
+	font-weight: 600;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.mcav-byline__name,
+.mcav-byline__name a {
+	color: #333;
+	font-weight: 600;
+	text-decoration: none;
+}
+.mcav-byline__dates {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #e6e6e6;
+	font-size: 13px;
+}
+.mcav-byline__sep {
+	margin: 0 4px;
+	color: #aaa;
+}

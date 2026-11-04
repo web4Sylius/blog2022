@@ -43,3 +43,6 @@ function divi_child_load_custom_functions() {
 	require_once __DIR__ . '/inc/custom-functions.php';
 }
 add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
+
+// Bloc auteur / relecteur / dates sous le titre des articles.
+require_once __DIR__ . '/inc/byline.php';
