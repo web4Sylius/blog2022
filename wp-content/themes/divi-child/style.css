@@ -279,3 +279,27 @@ Text Domain:  divi-child
 		padding: 20px;
 	}
 }
+
+/* --- FAQ (inc/faq.php) --- */
+#left-area .mcav-faq {
+	margin: 8px 0 32px;
+}
+#left-area .mcav-faq details {
+	border-bottom: 1px solid #e6e6e6;
+}
+#left-area .mcav-faq summary {
+	padding: 14px 0;
+	font-weight: 600;
+	color: #333;
+	cursor: pointer;
+}
+#left-area .mcav-faq summary:hover {
+	color: #000;
+}
+#left-area .mcav-faq__reponse {
+	padding: 0 0 14px 18px;
+}
+.single-post #left-area .entry-content .mcav-faq__reponse p:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}

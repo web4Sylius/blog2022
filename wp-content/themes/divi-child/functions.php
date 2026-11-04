@@ -53,6 +53,9 @@ require_once __DIR__ . '/inc/avis-conseiller.php';
 // Encadré de sortie vers la boutique.
 require_once __DIR__ . '/inc/encadre-boutique.php';
 
+// FAQ : type de contenu « FAQ », choisi dans les articles (affichage + FAQPage).
+require_once __DIR__ . '/inc/faq.php';
+
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
 
