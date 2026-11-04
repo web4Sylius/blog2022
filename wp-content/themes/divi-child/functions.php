@@ -1,0 +1,45 @@
+<?php
+/**
+ * Thème enfant Divi – Ma Cave à Vin.
+ *
+ * Personnalisations déplacées depuis Divi/functions.php.
+ */
+
+/**
+ * À l'activation, reprend les réglages du Customizer de Divi
+ * (emplacement des menus, CSS additionnel, widgets), que WordPress
+ * stocke séparément pour chaque thème.
+ */
+function divi_child_copy_parent_theme_mods( $old_name, $old_theme = false ) {
+	$child_mods = get_option( 'theme_mods_' . get_stylesheet() );
+	$child_mods = is_array( $child_mods ) ? $child_mods : array();
+
+	// Une seule fois : ne pas écraser des réglages faits ensuite sur le thème enfant.
+	if ( ! empty( $child_mods['divi_child_parent_mods_imported'] ) ) {
+		return;
+	}
+
+	$parent_mods = get_option( 'theme_mods_' . get_template() );
+	$parent_mods = is_array( $parent_mods ) ? $parent_mods : array();
+
+	// WordPress a pu créer quelques réglages à l'activation (menus) : on complète sans les écraser.
+	$merged = array_merge( $parent_mods, $child_mods );
+	$merged['divi_child_parent_mods_imported'] = 1;
+
+	update_option( 'theme_mods_' . get_stylesheet(), $merged );
+}
+add_action( 'after_switch_theme', 'divi_child_copy_parent_theme_mods', 10, 2 );
+
+/**
+ * Charge les personnalisations après le functions.php de Divi.
+ *
+ * Tant que le serveur a un ancien Divi/functions.php qui contient encore ce
+ * code, on ne le charge pas une seconde fois (sinon : « Cannot redeclare »).
+ */
+function divi_child_load_custom_functions() {
+	if ( function_exists( 'divi_filtergrid_orderby_views' ) ) {
+		return;
+	}
+	require_once __DIR__ . '/inc/custom-functions.php';
+}
+add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
