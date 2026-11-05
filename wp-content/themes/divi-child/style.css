@@ -389,3 +389,48 @@ Text Domain:  divi-child
 	font-size: 15px;
 	line-height: 1.6;
 }
+
+/* --- Pour aller plus loin (inc/pour-aller-plus-loin.php) --- */
+#left-area .mcav-plus-loin {
+	margin: 32px 0 0;
+}
+#left-area .mcav-plus-loin h2 {
+	margin: 0 0 14px;
+	padding: 0;
+}
+#left-area .mcav-plus-loin ul {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#left-area .mcav-plus-loin li {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+#left-area .mcav-plus-loin a {
+	flex: 1;
+	display: block;
+	padding: 14px 16px;
+	border-radius: 6px;
+	background: #f2f2f2;
+	color: #333;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.45;
+	text-decoration: none;
+	transition: background-color .2s;
+}
+#left-area .mcav-plus-loin a:hover,
+#left-area .mcav-plus-loin a:focus-visible {
+	background: #e8e0d6;
+	color: #655435;
+}
+@media (max-width: 600px) {
+	#left-area .mcav-plus-loin ul {
+		grid-template-columns: 1fr;
+	}
+}

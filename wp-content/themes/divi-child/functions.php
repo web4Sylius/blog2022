@@ -65,6 +65,9 @@ require_once __DIR__ . '/inc/faq.php';
 // Sources : type de contenu « Sources », choisi dans les articles (liste en fin d'article).
 require_once __DIR__ . '/inc/sources.php';
 
+// « Pour aller plus loin » : 3 articles choisis, avant le bloc auteur (remplace la grille Divi).
+require_once __DIR__ . '/inc/pour-aller-plus-loin.php';
+
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
 

@@ -152,6 +152,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
                                 }
                                 ?>
                             </div>
+                            <?php echo divi_child_plus_loin_html(); // phpcs:ignore WordPress.Security.EscapeOutput -- échappé dans la fonction. ?>
                             <?php echo divi_child_auteur_box(); // phpcs:ignore WordPress.Security.EscapeOutput -- échappé dans la fonction. ?>
                         </article>
 
