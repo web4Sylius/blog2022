@@ -6,9 +6,7 @@
  *   [ Article choisi 1 ] [ Article choisi 2 ] [ Article choisi 3 ]
  *
  * - Dans l'article, on choisit 3 articles publiés (encadré « Pour aller plus loin »).
- * - Si au moins un article est choisi, le bloc remplace la grille d'articles
- *   (module « Blog » de Divi) placée dans le contenu de l'article.
- *   Sans choix, rien ne change : la grille reste affichée.
+ *   Sans choix, pas de bloc.
  */
 
 const DIVI_CHILD_META_PLUS_LOIN      = '_mcav_plus_loin';      // Article : identifiants choisis, dans l'ordre.
@@ -70,31 +68,6 @@ function divi_child_plus_loin_html( $post = null ) {
 	return $html . '</ul></nav>';
 }
 
-/**
- * Masque la grille d'articles (module « Blog » de Divi) du contenu de l'article
- * quand le bloc « Pour aller plus loin » la remplace.
- * Seulement pendant le contenu de l'article affiché : l'en-tête et le pied de page
- * du Theme Builder ne sont pas touchés.
- */
-function divi_child_plus_loin_contenu_debut( $content ) {
-	$GLOBALS['divi_child_plus_loin_masque_blog'] = is_singular( 'post' ) && in_the_loop() && is_main_query()
-		&& get_the_ID() === get_queried_object_id()
-		&& divi_child_plus_loin_published( get_queried_object_id() );
-	return $content;
-}
-add_filter( 'the_content', 'divi_child_plus_loin_contenu_debut', 1 );
-
-function divi_child_plus_loin_contenu_fin( $content ) {
-	$GLOBALS['divi_child_plus_loin_masque_blog'] = false;
-	return $content;
-}
-add_filter( 'the_content', 'divi_child_plus_loin_contenu_fin', 99 );
-
-function divi_child_plus_loin_masque_blog( $output ) {
-	return empty( $GLOBALS['divi_child_plus_loin_masque_blog'] ) ? $output : '';
-}
-add_filter( 'et_pb_blog_shortcode_output', 'divi_child_plus_loin_masque_blog' );
-
 /* -------------------------------------------------------------------------
  * Administration
  * ---------------------------------------------------------------------- */
@@ -120,7 +93,6 @@ function divi_child_plus_loin_box( $post ) {
 	?>
 	<p class="description">
 		Trois liens vers des articles publiés, juste avant le bloc auteur.
-		Dès qu'un article est choisi, ce bloc remplace la grille d'articles (module « Blog ») de la fin de l'article.
 	</p>
 	<?php for ( $i = 0; $i < DIVI_CHILD_PLUS_LOIN_SLOTS; $i++ ) : ?>
 		<p style="margin:6px 0">
