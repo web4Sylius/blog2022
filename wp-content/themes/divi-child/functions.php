@@ -44,8 +44,8 @@ function divi_child_load_custom_functions() {
 }
 add_action( 'after_setup_theme', 'divi_child_load_custom_functions', 0 );
 
-// Texte du bas de page (remplace les crédits de Divi).
-require_once __DIR__ . '/inc/footer.php';
+// Shortcodes : [pied_de_page] (texte du pied de page) et [annee].
+require_once __DIR__ . '/inc/shortcodes.php';
 
 // Bloc auteur / relecteur / dates sous le titre des articles.
 require_once __DIR__ . '/inc/byline.php';
@@ -64,6 +64,12 @@ require_once __DIR__ . '/inc/faq.php';
 
 // Sources : type de contenu « Sources », choisi dans les articles (liste en fin d'article).
 require_once __DIR__ . '/inc/sources.php';
+
+// « Pour aller plus loin » : 3 articles choisis, avant le bloc auteur.
+require_once __DIR__ . '/inc/pour-aller-plus-loin.php';
+
+// Encadré « En bref » sous l'image du haut de l'article, avant le sommaire.
+require_once __DIR__ . '/inc/en-bref.php';
 
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
