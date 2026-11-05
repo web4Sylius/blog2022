@@ -151,6 +151,58 @@ Text Domain:  divi-child
 	text-decoration: underline;
 }
 
+/* --- En bref (inc/en-bref.php) --- */
+#left-area .mcav-bref {
+	margin: 24px 0 28px;
+	padding: 18px 24px 16px;
+	background: #f8f4ee;
+	border-left: 4px solid #a98c59;
+	border-radius: 0 8px 8px 0;
+}
+.single-post #left-area .entry-content .mcav-bref .mcav-bref__titre {
+	margin: 0 0 6px;
+	padding: 0;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.4;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	color: #877047;
+}
+.single-post #left-area .entry-content .mcav-bref__texte p {
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 17px;
+	line-height: 1.7;
+	color: #333;
+}
+.single-post #left-area .entry-content .mcav-bref__texte p:last-child {
+	margin-bottom: 0;
+}
+/* #left-area ul de Divi : puces à l'intérieur, sans retrait. */
+#left-area .mcav-bref .mcav-bref__points {
+	margin: 12px 0 0;
+	padding: 0 0 0 20px;
+	list-style: disc outside;
+}
+.single-post #left-area .entry-content .mcav-bref__points li {
+	padding: 2px 0;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #444;
+}
+.single-post #left-area .entry-content .mcav-bref strong {
+	color: #333;
+}
+@media (max-width: 600px) {
+	#left-area .mcav-bref {
+		padding: 14px 16px 12px;
+	}
+	.single-post #left-area .entry-content .mcav-bref__texte p {
+		font-size: 16px;
+	}
+}
+
 /* --- L'avis du conseiller (inc/avis-conseiller.php) --- */
 #left-area .mcav-avis {
 	display: flex;

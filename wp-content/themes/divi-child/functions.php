@@ -68,6 +68,9 @@ require_once __DIR__ . '/inc/sources.php';
 // « Pour aller plus loin » : 3 articles choisis, avant le bloc auteur.
 require_once __DIR__ . '/inc/pour-aller-plus-loin.php';
 
+// Encadré « En bref » sous l'image du haut de l'article, avant le sommaire.
+require_once __DIR__ . '/inc/en-bref.php';
+
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
 
