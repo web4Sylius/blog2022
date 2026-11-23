@@ -24,7 +24,6 @@
 		document.documentElement.className = 'js';
 	</script>
 	<?php wp_head(); ?>
-	<meta name="google-site-verification" content="X2ORSNUedjwvpiBRb8pwTsenfa_lrDdydz9UlEH5pdk" />
 </head>
 <body <?php body_class(); ?>>
 <?php
