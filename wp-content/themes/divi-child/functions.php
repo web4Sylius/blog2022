@@ -71,6 +71,10 @@ require_once __DIR__ . '/inc/pour-aller-plus-loin.php';
 // Encadré « En bref » sous l'image du haut de l'article, avant le sommaire.
 require_once __DIR__ . '/inc/en-bref.php';
 
+
+// Balise de validation Google Search Console sur la page d'accueil.
+require_once __DIR__ . '/inc/google-site-verification.php';
+
 // Sommaire automatique construit à partir des H2 des articles.
 require_once __DIR__ . '/inc/toc.php';
 
